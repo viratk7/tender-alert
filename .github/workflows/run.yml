@@ -29,6 +29,7 @@ jobs:
 
       - name: Run monitoring script
         run: |
+          python main.py update
 
       - name: Commit updated cache
         run: |
