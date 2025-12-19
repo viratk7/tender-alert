@@ -39,18 +39,31 @@ def _get_session():
 
     return session
 
-def _make_stable_id(title: str, deadline: str, link: str) -> str:
+
+def _normalize_title(title: str) -> str:
     """
-    Deterministic stable ID for ADB_CSRN notices
+    Normalize title so it is stable across runs
     """
-    key = f"{title}|{deadline}|{link}".lower()
-    digest = hashlib.sha256(key.encode("utf-8")).hexdigest()[:16]
+    title = title.lower()
+    title = re.sub(r"\s+", " ", title)
+    title = re.sub(r"[^\w\s]", "", title)
+    return title.strip()
+
+
+def _make_stable_id(title: str) -> str:
+    """
+    Stable deterministic ID based ONLY on title
+    """
+    norm_title = _normalize_title(title)
+    digest = hashlib.sha256(norm_title.encode("utf-8")).hexdigest()[:16]
     return f"ADB_CSRN-{digest}"
+
 
 def fetch_jobs():
     """
     Returns:
         List[Dict[str, str]] with keys:
+        - source
         - id
         - title
         - deadline
@@ -78,29 +91,34 @@ def fetch_jobs():
 
         # --- Title + link ---
         project_a = cells[0].find("a")
-        title = project_a.get_text(strip=True) if project_a else ""
-        link = project_a["href"] if project_a and project_a.has_attr("href") else ""
+        if not project_a:
+            continue
+
+        title = project_a.get_text(strip=True)
+        link = project_a.get("href", "")
 
         # --- Deadline ---
         deadline = cells[5].get_text(strip=True)
 
-        # --- CSRN ID (unique identifier) ---
-        stable_id = _make_stable_id(title.strip(), deadline.strip(), link.strip())
-
+        # --- Stable ID (TITLE ONLY) ---
+        stable_id = _make_stable_id(title)
 
         # Normalize link (ADB sometimes gives relative URLs)
-        if link and link.startswith("/"):
+        if link.startswith("/"):
             link = "https://selfservice.adb.org" + link
 
         results.append({
-            "source":SOURCE,
+            "source": SOURCE,
             "id": stable_id,
-            "title": title.strip(),
-            "deadline": deadline.strip(),
-            "link": link.strip(),
+            "title": title,
+            "deadline": deadline,
+            "link": link,
         })
 
     return results
 
+
 if __name__ == "__main__":
-    print(fetch_jobs()[:5])
+    jobs = fetch_jobs()
+    print(len(jobs))
+    print(jobs[:5])

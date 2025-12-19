@@ -8,14 +8,26 @@ from email_sender import send_job_email
 # ---- import all site modules ----
 from sites import undp, afdb, adb_rss, worldbank, adb_csrn
 
-# ---- CONFIG ----
+# ================== CONFIG ==================
+
 KEYWORDS = [
+    # English
     "climate",
     "environment",
     "energy",
-    "green",
-    "sustainable"
+    "sustainable",
+    "renewable",
+
+    # French
+    "climat",
+    "environnement",
+    "énergie",
+    "durable",
+    "renouvelable",
 ]
+
+MAX_EMAILS_PER_RUN = 10          # HARD GLOBAL CAP
+MAX_NEW_JOBS_PER_SITE = 15       # AUTO-STOP THRESHOLD
 
 CACHE_FILE = Path("last_seen.json")
 
@@ -27,7 +39,6 @@ SITES = [
     adb_csrn,
 ]
 
-
 # ================== CACHE ==================
 
 def load_cache():
@@ -35,17 +46,14 @@ def load_cache():
         return json.loads(CACHE_FILE.read_text())
     return {}
 
-
 def save_cache(cache):
     CACHE_FILE.write_text(json.dumps(cache, indent=2))
-
 
 # ================== UTILS ==================
 
 def title_matches(title: str) -> bool:
     t = title.lower()
     return any(k in t for k in KEYWORDS)
-
 
 async def run_fetch(site):
     """
@@ -56,12 +64,13 @@ async def run_fetch(site):
     else:
         return site.fetch_jobs()
 
-
 # ================== MAIN ==================
 
 async def main():
     cache = load_cache()
     updated_cache = dict(cache)
+
+    emails_sent = 0   # GLOBAL COUNTER
 
     for site in SITES:
         source = site.SOURCE
@@ -81,16 +90,40 @@ async def main():
             save_cache(updated_cache)
             continue
 
-        new_jobs = []
+        # ---------- FIRST RUN SAFETY ----------
+        if last_seen_id is None:
+            print(f"🛑 FIRST RUN for {source} — baseline set, NO emails sent")
+            updated_cache[source] = jobs[0]["id"]
+            save_cache(updated_cache)
+            continue
 
+        # ---------- COLLECT NEW JOBS ----------
+        new_jobs = []
         for job in jobs:
-            if last_seen_id and job["id"] == last_seen_id:
+            if job["id"] == last_seen_id:
                 break
             new_jobs.append(job)
 
         print(f"🆕 {len(new_jobs)} new jobs for {source}")
 
+        # ---------- AUTO-STOP ON SUSPICIOUS SPIKE ----------
+        if len(new_jobs) > MAX_NEW_JOBS_PER_SITE:
+            print(
+                f"🚨 AUTO-STOP: {len(new_jobs)} new jobs for {source}. "
+                "Possible cache reset or site change. No emails sent."
+            )
+            updated_cache[source] = new_jobs[0]["id"]
+            save_cache(updated_cache)
+            continue
+
+        # ---------- SEND EMAILS (WITH HARD CAP) ----------
         for job in new_jobs:
+            if emails_sent >= MAX_EMAILS_PER_RUN:
+                raise RuntimeError(
+                    f"🛑 ABORTING RUN: Email limit exceeded "
+                    f"({emails_sent} >= {MAX_EMAILS_PER_RUN})"
+                )
+
             if title_matches(job["title"]):
                 print(f"📧 Sending email: {job['id']}")
                 send_job_email(
@@ -101,16 +134,17 @@ async def main():
                     process=job.get("process"),
                     deadline=job.get("deadline"),
                 )
+                emails_sent += 1
 
+        # ---------- UPDATE CACHE ----------
         if new_jobs:
             updated_cache[source] = new_jobs[0]["id"]
 
-        # ✅ persist after EACH site
         save_cache(updated_cache)
 
-    print("\n✅ Done.")
+    print(f"\n✅ Done. Emails sent: {emails_sent}")
 
-
+# ================== ENTRY ==================
 
 if __name__ == "__main__":
     asyncio.run(main())
