@@ -2,6 +2,7 @@ import asyncio
 import json
 import inspect
 from pathlib import Path
+import re
 
 from email_sender import send_job_email
 
@@ -11,20 +12,68 @@ from sites import undp, afdb, adb_rss, worldbank, adb_csrn
 # ================== CONFIG ==================
 
 KEYWORDS = [
-    # English
+    # ================= English =================
     "climate",
     "environment",
     "energy",
     "sustainable",
     "renewable",
+    "sustainability",
+    "green",
 
-    # French
+    # UNFCCC / reporting
+    "ndc",
+    "ndc 3.0",
+    "nationally determined contribution",
+    "btr",
+    "biennial transparency report",
+    "national communication",
+    "reporting",
+    "transparency",
+    "mrv",
+    "stocktake",
+    "global stocktake",
+
+    # Climate action
+    "mitigation",
+    "adaptation",
+    "emission",
+    "ghg",
+    "climate finance",
+    "green finance",
+    "taxonomy",
+    "electricity",
+
+    # ================= French =================
     "climat",
     "environnement",
     "énergie",
     "durable",
     "renouvelable",
+    "durabilité",
+    "vert",
+
+    # UNFCCC / reporting (FR)
+    "cdn",  # Contribution déterminée au niveau national
+    "contribution déterminée au niveau national",
+    "rapport biennal de transparence",
+    "communication nationale",
+    "rapportage",
+    "transparence",
+    "mrv",  # same acronym in French
+    "bilan mondial",
+
+    # Climate action (FR)
+    "atténuation",
+    "adaptation",
+    "émission",
+    "ges",  # gaz à effet de serre
+    "finance climatique",
+    "finance verte",
+    "taxonomie",
+    "électricité",
 ]
+
 
 MAX_EMAILS_PER_RUN = 10          # HARD GLOBAL CAP
 MAX_NEW_JOBS_PER_SITE = 15       # AUTO-STOP THRESHOLD
@@ -51,9 +100,12 @@ def save_cache(cache):
 
 # ================== UTILS ==================
 
+def normalize(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", text.lower())
+
 def title_matches(title: str) -> bool:
-    t = title.lower()
-    return any(k in t for k in KEYWORDS)
+    t = normalize(title)
+    return any(normalize(k) in t for k in KEYWORDS)
 
 async def run_fetch(site):
     """
