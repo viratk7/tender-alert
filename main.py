@@ -23,7 +23,7 @@ KEYWORDS = [
 
     # UNFCCC / reporting
     "ndc",
-    "ndc 3.0",
+    "ndc 3",
     "nationally determined contribution",
     "btr",
     "biennial transparency report",
