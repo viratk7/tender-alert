@@ -3,6 +3,7 @@ import json
 import inspect
 from pathlib import Path
 import re
+import unicodedata
 
 from email_sender import send_job_email
 
@@ -67,7 +68,6 @@ KEYWORDS = [
     "atténuation",
     "adaptation",
     "émission",
-    "ges",  # gaz à effet de serre
     "finance climatique",
     "finance verte",
     "taxonomie",
@@ -101,11 +101,28 @@ def save_cache(cache):
 # ================== UTILS ==================
 
 def normalize(text: str) -> str:
-    return re.sub(r"[^a-z0-9]+", " ", text.lower())
+    # convert accented letters to ASCII (é -> e), then remove non-alnum
+    text = unicodedata.normalize("NFKD", text)
+    text = text.encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"[^a-z0-9]+", " ", text.lower()).strip()
 
 def title_matches(title: str) -> bool:
     t = normalize(title)
-    return any(normalize(k) in t for k in KEYWORDS)
+    # For single-word keywords, require exact token match; for multi-word, allow substring
+    tokens = set(t.split())
+    for k in KEYWORDS:
+        nk = normalize(k)
+        if not nk:
+            continue
+        if " " in nk:
+            # multi-word phrases: keep substring search
+            if nk in t:
+                return True
+        else:
+            # single words/acronyms: require whole token match
+            if nk in tokens:
+                return True
+    return False
 
 async def run_fetch(site):
     """
