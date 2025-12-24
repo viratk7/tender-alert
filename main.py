@@ -8,7 +8,7 @@ import unicodedata
 from email_sender import send_job_email
 
 # ---- import all site modules ----
-from sites import undp, afdb, adb_rss, worldbank, adb_csrn
+from sites import undp, afdb, adb_rss, worldbank, adb_csrn,spc
 
 # ================== CONFIG ==================
 
@@ -86,6 +86,7 @@ SITES = [
     adb_rss,
     worldbank,
     adb_csrn,
+    spc
 ]
 
 # ================== CACHE ==================
@@ -145,7 +146,10 @@ async def main():
         source = site.SOURCE
         print(f"\n🔍 Checking {source}")
 
-        last_seen_id = cache.get(source)
+        if site == spc:
+            last_seen_id = set(cache.get(source, []))
+        else:
+            last_seen_id = cache.get(source)
 
         try:
             jobs = await run_fetch(site)
@@ -159,19 +163,18 @@ async def main():
             save_cache(updated_cache)
             continue
 
-        # ---------- FIRST RUN SAFETY ----------
-        if last_seen_id is None:
-            print(f"🛑 FIRST RUN for {source} — baseline set, NO emails sent")
-            updated_cache[source] = jobs[0]["id"]
-            save_cache(updated_cache)
-            continue
-
         # ---------- COLLECT NEW JOBS ----------
         new_jobs = []
-        for job in jobs:
-            if job["id"] == last_seen_id:
-                break
-            new_jobs.append(job)
+        
+        if site == spc:
+            for job in jobs:
+                if job["id"] not in last_seen_id:
+                    new_jobs.append(job)
+        else:
+            for job in jobs:
+                if job["id"] == last_seen_id:
+                    break
+                new_jobs.append(job)
 
         print(f"🆕 {len(new_jobs)} new jobs for {source}")
 
@@ -181,7 +184,12 @@ async def main():
                 f"🚨 AUTO-STOP: {len(new_jobs)} new jobs for {source}. "
                 "Possible cache reset or site change. No emails sent."
             )
-            updated_cache[source] = new_jobs[0]["id"]
+            if site!=spc:
+                updated_cache[source] = new_jobs[0]["id"]
+            else:
+                prev_ids = set(cache.get(source, []))
+                current_ids = {job["id"] for job in jobs}
+                updated_cache[source] = list(prev_ids | current_ids)
             save_cache(updated_cache)
             continue
 
@@ -207,7 +215,12 @@ async def main():
 
         # ---------- UPDATE CACHE ----------
         if new_jobs:
-            updated_cache[source] = new_jobs[0]["id"]
+            if site!=spc:
+                updated_cache[source] = new_jobs[0]["id"]
+            else:
+                prev_ids = set(cache.get(source, []))
+                current_ids = {job["id"] for job in jobs}
+                updated_cache[source] = list(prev_ids | current_ids)
 
         save_cache(updated_cache)
 
