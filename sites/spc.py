@@ -46,6 +46,7 @@ def fetch_jobs():
     rows = soup.select("table tbody tr")
     jobs = []
     today_date = datetime.date.today().isoformat()
+    number_jobs_fetched=0
 
     for row in rows:
         cols = row.find_all("td")
@@ -63,6 +64,8 @@ def fetch_jobs():
         
         if len(times) >= 2:
             deadline = times[1]["datetime"].split("T")[0]
+        
+        number_jobs_fetched+=1
         
         if not compare_dates(date_posted, today_date):
             continue
@@ -90,6 +93,10 @@ def fetch_jobs():
             "deadline": deadline,
             "link": link,
         })
+    if number_jobs_fetched>0:
+        print("No worries, SPC fetching jobs!")
+    else:
+        print("Code Red SPC")
 
     return jobs
 
