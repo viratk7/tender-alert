@@ -5,9 +5,11 @@
   "WORLD_BANK": "WORLD_BANK-OP00228336",
   "ADB_CSRN": "ADB_CSRN-a0b6b8f0367df28e",
   "SPC": [
-    "RFQ25-9792",
     "RFQ26-9816",
+    "RFQ25-9822",
+    "RFQ26-9821",
+    "RFQ26-9812",
     "EOI26-9815",
-    "RFQ26-9812"
+    "RFQ25-9792"
   ]
 }
