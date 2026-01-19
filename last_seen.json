@@ -1,15 +1,16 @@
 {
-  "UNDP": "UNDP-DJI-00190",
+  "UNDP": "UNDP-BRC-00219",
   "AFDB": "AFDB-eoi-amap-technical-assistance-south-african-dee-design-optimal-delivery-model-micro-grid-electrification-under-inep-action-plan-pern-90264",
   "ADB_RSS": "ADB-1114081",
   "WORLD_BANK": "WORLD_BANK-OP00297709",
   "ADB_CSRN": "ADB_CSRN-c1504cba6da58afc",
   "SPC": [
     "RFQ26-9816",
-    "RFQ25-9822",
-    "RFQ26-9821",
     "RFQ26-9812",
+    "RFQ25-9792",
+    "RFQ25-9822",
     "EOI26-9815",
-    "RFQ25-9792"
+    "RFQ26-9821",
+    "RFP26-9818"
   ]
 }
