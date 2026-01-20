@@ -3,14 +3,15 @@
   "AFDB": "AFDB-eoi-medium-term-consultant-technical-assistance-rmcs-fbs-compilation-2026-ecst-90280",
   "ADB_RSS": "ADB-1114081",
   "WORLD_BANK": "WORLD_BANK-OP00411636",
-  "ADB_CSRN": "ADB_CSRN-c1504cba6da58afc",
+  "ADB_CSRN": "ADB_CSRN-4e1b77a5b6498cc1",
   "SPC": [
-    "RFQ26-9816",
-    "RFQ26-9812",
-    "RFQ25-9792",
-    "RFQ25-9822",
-    "EOI26-9815",
+    "RFP26-9818",
     "RFQ26-9821",
-    "RFP26-9818"
+    "RFQ25-9792",
+    "EOI26-9815",
+    "RFQ25-9822",
+    "RFQ26-9824",
+    "RFQ26-9816",
+    "RFQ26-9812"
   ]
 }
