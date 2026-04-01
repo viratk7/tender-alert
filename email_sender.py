@@ -4,7 +4,7 @@ from email.message import EmailMessage
 
 # ================= CONFIG =================
 EMAIL_SENDER = "tender.alerts007@gmail.com"
-EMAIL_PASSWORD = "psuw fvqr fcbj wtkq"   # Gmail App Password
+EMAIL_PASSWORD = "SECRET_KEY"   # Gmail App Password
 EMAIL_RECEIVER = "vansh.kalshan@in.gt.com"
 temp="viratkalshan@gmail.com"
 # ========================================
