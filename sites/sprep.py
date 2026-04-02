@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 import hashlib
+from playwright.sync_api import sync_playwright
 
 SOURCE = "SPREP"
 
@@ -53,11 +54,17 @@ def _make_stable_id(title: str) -> str:
 
 
 def fetch_jobs():
-    session = _get_session()
-    response = session.get(URL, timeout=(10, 30))
-    response.raise_for_status()
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
 
-    soup = BeautifulSoup(response.text, "html.parser")
+        page.goto("https://www.sprep.org/tenders", timeout=30000)
+        page.wait_for_timeout(3000)
+
+        html = page.content()
+        browser.close()
+
+    soup = BeautifulSoup(html, "html.parser")
 
     results = []
 

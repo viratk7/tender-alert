@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from groq import Groq
 
 load_dotenv()  # loads .env into environment
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")  # Gmail App Password
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 client = Groq(
     api_key=GROQ_API_KEY,
