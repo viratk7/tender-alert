@@ -8,7 +8,7 @@ import unicodedata
 from email_sender import send_job_email
 
 # ---- import all site modules ----
-from sites import undp, afdb, adb_rss, worldbank, adb_csrn,spc
+from sites import undp, afdb, adb_rss, worldbank, adb_csrn,spc, sprep
 from llm import classify
 
 # ================== CONFIG ==================
@@ -23,7 +23,8 @@ SITES = [
     adb_rss,
     worldbank,
     adb_csrn,
-    spc
+    spc,
+    sprep
 ]
 
 # ================== CACHE ==================

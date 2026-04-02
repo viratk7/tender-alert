@@ -4,3 +4,4 @@ __pycache__/
 /sites/jobs.txt
 .env
 test.py
+test.txt

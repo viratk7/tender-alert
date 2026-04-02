@@ -9,8 +9,13 @@ load_dotenv()  # loads .env into environment
 # ================= CONFIG =================
 EMAIL_SENDER = "tender.alerts007@gmail.com"
 EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")   # Gmail App Password
-EMAIL_RECEIVER = "vansh.kalshan@in.gt.com"
-temp="viratkalshan@gmail.com"
+SEND_TO_VANSH = True  # toggle this
+
+EMAIL_RECEIVER = (
+    "vansh.kalshan@in.gt.com"
+    if SEND_TO_VANSH
+    else "viratkalshan@gmail.com"
+)
 # ========================================
 
 def send_job_email(title, link, ref_no=None, country=None,
