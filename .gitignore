@@ -2,3 +2,5 @@ test.ipynb
 __pycache__/
 /.idea
 /sites/jobs.txt
+.env
+test.py

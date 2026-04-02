@@ -9,72 +9,9 @@ from email_sender import send_job_email
 
 # ---- import all site modules ----
 from sites import undp, afdb, adb_rss, worldbank, adb_csrn,spc
+from llm import classify
 
 # ================== CONFIG ==================
-
-KEYWORDS = [
-    # ================= English =================
-    "climate",
-    "environment",
-    "energy",
-    "sustainable",
-    "renewable",
-    "sustainability",
-    "green",
-
-    # UNFCCC / reporting
-    "ndc",
-    "ndc 3",
-    "nationally determined contribution",
-    "btr",
-    "biennial transparency report",
-    "national communication",
-    "reporting",
-    "transparency",
-    "mrv",
-    "stocktake",
-    "global stocktake",
-
-    # Climate action
-    "mitigation",
-    "adaptation",
-    "emission",
-    "ghg",
-    "climate finance",
-    "green finance",
-    "taxonomy",
-    "electricity",
-
-    # ================= French =================
-    "climat",
-    "environnement",
-    "énergie",
-    "durable",
-    "renouvelable",
-    "durabilité",
-    "vert",
-
-    # UNFCCC / reporting (FR)
-    "cdn",  # Contribution déterminée au niveau national
-    "contribution déterminée au niveau national",
-    "rapport biennal de transparence",
-    "communication nationale",
-    "rapportage",
-    "transparence",
-    "mrv",  # same acronym in French
-    "bilan mondial",
-
-    # Climate action (FR)
-    "atténuation",
-    "adaptation",
-    "émission",
-    "finance climatique",
-    "finance verte",
-    "taxonomie",
-    "électricité",
-]
-
-
 MAX_EMAILS_PER_RUN = 10          # HARD GLOBAL CAP
 MAX_NEW_JOBS_PER_SITE = 15       # AUTO-STOP THRESHOLD
 
@@ -110,20 +47,14 @@ def normalize(text: str) -> str:
 def title_matches(title: str) -> bool:
     t = normalize(title)
     # For single-word keywords, require exact token match; for multi-word, allow substring
-    tokens = set(t.split())
-    for k in KEYWORDS:
-        nk = normalize(k)
-        if not nk:
-            continue
-        if " " in nk:
-            # multi-word phrases: keep substring search
-            if nk in t:
-                return True
-        else:
-            # single words/acronyms: require whole token match
-            if nk in tokens:
-                return True
-    return False
+    answer=classify(t)
+    print(f"LLM response for {t}", answer)
+    if answer=="TRUE":
+      return True
+    elif answer=="FALSE":
+      return False
+    else:
+      raise Exception("LLM not return required output")
 
 async def run_fetch(site):
     """

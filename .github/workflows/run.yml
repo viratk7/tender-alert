@@ -2,8 +2,11 @@ name: Procurement Monitor
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 */3 * * *"   # every 3 hours
   workflow_dispatch:
+
+permissions:
+  contents: write   # needed for git push
 
 jobs:
   run-monitor:
@@ -12,8 +15,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true  # IMPORTANT
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,6 +29,9 @@ jobs:
           playwright install chromium
 
       - name: Run monitoring script
+        env:
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           python main.py update
 
@@ -37,7 +41,7 @@ jobs:
             git config user.name "github-actions"
             git config user.email "github-actions@github.com"
             git add last_seen.json
-            git commit -m "Update last seen job IDs"
+            git commit -m "Update last seen job IDs [skip ci]"
             git push
           else
             echo "No cache changes to commit"
