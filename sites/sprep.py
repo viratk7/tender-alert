@@ -1,43 +1,11 @@
-import re
-import requests
+from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
 import hashlib
-from playwright.sync_api import sync_playwright
+import asyncio
+import re
 
 SOURCE = "SPREP"
-
 URL = "https://www.sprep.org/tenders"
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                  "AppleWebKit/537.36 (KHTML, like Gecko) "
-                  "Chrome/121.0.0.0 Safari/537.36",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Connection": "keep-alive",
-}
-
-
-def _get_session():
-    session = requests.Session()
-    session.headers.update(HEADERS)
-
-    retry = Retry(
-        total=5,
-        connect=5,
-        read=5,
-        backoff_factor=2,
-        status_forcelist=[429, 500, 502, 503, 504],
-        allowed_methods=["GET"],
-    )
-
-    adapter = HTTPAdapter(max_retries=retry)
-    session.mount("https://", adapter)
-    session.mount("http://", adapter)
-
-    return session
 
 
 def _normalize_title(title: str) -> str:
@@ -53,16 +21,16 @@ def _make_stable_id(title: str) -> str:
     return f"{SOURCE}-{digest}"
 
 
-def fetch_jobs():
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
+async def fetch_jobs():
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        page = await browser.new_page()
 
-        page.goto("https://www.sprep.org/tenders", timeout=30000)
-        page.wait_for_timeout(3000)
+        await page.goto(URL, timeout=60000)
+        await page.wait_for_timeout(3000)
 
-        html = page.content()
-        browser.close()
+        html = await page.content()
+        await browser.close()
 
     soup = BeautifulSoup(html, "html.parser")
 
@@ -81,7 +49,6 @@ def fetch_jobs():
 
         tender_col = cols[0]
 
-        # --- Title + link ---
         a_tag = tender_col.find("a", href=True)
         if not a_tag:
             continue
@@ -92,7 +59,6 @@ def fetch_jobs():
         if link.startswith("/"):
             link = "https://www.sprep.org" + link
 
-        # --- Deadline ---
         text = tender_col.get_text(" ", strip=True)
 
         deadline = ""
@@ -100,7 +66,6 @@ def fetch_jobs():
         if match:
             deadline = match.group(1)
 
-        # --- Stable ID ---
         stable_id = _make_stable_id(title)
 
         results.append({
@@ -113,8 +78,7 @@ def fetch_jobs():
 
     return results
 
-
 if __name__ == "__main__":
-    jobs = fetch_jobs()
+    jobs = asyncio.run(fetch_jobs())
     print(len(jobs))
     print(jobs[:5])
