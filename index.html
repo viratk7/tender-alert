@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tender Alerts History</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+        
+        :root {
+            --bg-color: #121212;
+            --text-color: #e0e0e0;
+            --accent-color: #bb86fc;
+            --border-color: #333;
+            --row-hover: #1e1e1e;
+            --true-color: #4caf50;
+            --false-color: #f44336;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px 20px;
+        }
+        h1 {
+            text-align: center;
+            color: var(--accent-color);
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        select, input {
+            padding: 12px 15px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            background-color: #1e1e1e;
+            color: white;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        select:focus, input:focus {
+            border-color: var(--accent-color);
+        }
+        table {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+            background-color: #1e1e1e;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 16px 20px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+        th {
+            background-color: #2c2c2c;
+            color: var(--accent-color);
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+        tr:hover td {
+            background-color: var(--row-hover);
+        }
+        tr {
+            transition: background-color 0.2s ease;
+        }
+        a {
+            color: #64b5f6;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #90caf9;
+            text-decoration: underline;
+        }
+        .badge {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            display: inline-block;
+        }
+        .badge.true {
+            background-color: rgba(76, 175, 80, 0.15);
+            color: var(--true-color);
+            border: 1px solid rgba(76, 175, 80, 0.3);
+        }
+        .badge.false {
+            background-color: rgba(244, 67, 54, 0.15);
+            color: var(--false-color);
+            border: 1px solid rgba(244, 67, 54, 0.3);
+        }
+        .source {
+            color: #aaa;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tender Alerts History</h1>
+    <div class="controls">
+        <input type="text" id="searchInput" placeholder="Search by ID or Title..." onkeyup="filterTable()">
+        <select id="relevanceFilter" onchange="filterTable()">
+            <option value="ALL">All Jobs</option>
+            <option value="TRUE">Relevant (TRUE)</option>
+            <option value="FALSE">Not Relevant (FALSE)</option>
+        </select>
+    </div>
+    <table id="jobsTable">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Source</th>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Relevance</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>98831</td>
+                <td>Grant to Raise Awareness and Promote Understanding of GBV and Juvenile Court Processes and Legal Remedies, and Rights of Persons with Disabilities Including Access to Justice and Services</td>
+                <td><span class="badge false">FALSE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_notice.cfm?notice_id=98831" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNCDF-00627</td>
+                <td>Fiji MSME Climate & Disaster Insurance: MVP Development</td>
+                <td><span class="badge true">TRUE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45340" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-MDG-00785</td>
+                <td>PRC0175065 - RECRUTEMENT ETUDES PREALABLES - PLAN D'ACTIONS GIRE</td>
+                <td><span class="badge true">TRUE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45339" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-CAF-00464</td>
+                <td>FOURNITURE ET INSTALLATION D'UNE CITERNE DE 22 000 LITRES DE CARBURANT AU PNUD</td>
+                <td><span class="badge false">FALSE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45338" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNCDF-00626</td>
+                <td>Procurement of Virtual Server for Fiji Teachers Registration Authority (FTRA)</td>
+                <td><span class="badge false">FALSE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45304" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-PHL-00928,1</td>
+                <td>Firm for the Provision of Technical Assistance on CE Financing Strategies</td>
+                <td><span class="badge true">TRUE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45296" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-PAK-01605</td>
+                <td>UNDP-IC-2026-115; IC - Coordination,Outreach and Knowledge Management Specialist</td>
+                <td><span class="badge true">TRUE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45297" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-IND-00757</td>
+                <td>UNDP-IC-2026-009-MIS Associate</td>
+                <td><span class="badge false">FALSE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45298" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-PAK-01604</td>
+                <td>UNDP-IC-2026-114:  IC - Senior Strategic Advisor, Minorities</td>
+                <td><span class="badge false">FALSE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45299" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-LKA-00682</td>
+                <td>IC/GEF7BDLD/2605/11 - National Consultant - Mid Term Review</td>
+                <td><span class="badge true">TRUE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45305" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-SOM-00635</td>
+                <td>National Consultant – Capacity Building and Empowering Women  in Justice</td>
+                <td><span class="badge false">FALSE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45307" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-RWA-00356</td>
+                <td>RFQ for Provision of simultaneous interpretation services</td>
+                <td><span class="badge false">FALSE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45308" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-NPL-00668</td>
+                <td>UNDP/RFQ/2026/15-GTN-Re-Bid Makerspace in Dhangadhi Sub-Metropolitan City</td>
+                <td><span class="badge false">FALSE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45309" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-PER-00899</td>
+                <td>Acuerdo Largo Plazo- Elaboración Línea de-Base (ELBA) y Plan de Extracción (PEX)</td>
+                <td><span class="badge false">FALSE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45337" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-LAO-00674</td>
+                <td>National consultants support capacity building for 2023–2025 ODA report.</td>
+                <td><span class="badge true">TRUE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45311" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-GEO-00426</td>
+                <td>National Consultant for Institutionalizing Socio‑Economic Risk Assessment Tools</td>
+                <td><span class="badge true">TRUE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45312" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-BIH-01561</td>
+                <td>PBF-IC-Consultant for Overview of Peacebuilding Interventions in BIH</td>
+                <td><span class="badge false">FALSE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45313" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-KEN-00695</td>
+                <td>National Consultancy for field data analysis, report writing & proposal developm</td>
+                <td><span class="badge true">TRUE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45314" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-BIH-01559</td>
+                <td>GBV-RfP-Study on addressing gender-based violence, sexual harassment</td>
+                <td><span class="badge false">FALSE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45315" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-ALB-00842</td>
+                <td>IC-National Expert for KAP Survey Fieldwork and Data Analysis</td>
+                <td><span class="badge true">TRUE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45316" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-TUN-01012</td>
+                <td>RFP19-2026 : Recrutement d’un cabinet pour l’appui aux cadres régionaux de conce</td>
+                <td><span class="badge false">FALSE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45331" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-NGA-01424,1</td>
+                <td>RFP: Provision of Videography and Photography Services for UNDP Nigeria</td>
+                <td><span class="badge false">FALSE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45336" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-MUS-00220</td>
+                <td>Procurement of consultancy services for the Monitoring and Evaluation Consultant</td>
+                <td><span class="badge false">FALSE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45317" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-CAF-00461</td>
+                <td>TRAVAUX DE RECONSTRUCTION D’UN HANGAR AMELIORE DANS LA VILLE DE OUADDA</td>
+                <td><span class="badge false">FALSE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45318" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><span class="source">2026-05-09 22:03</span></td>
+                <td><span class="source">UNDP</span></td>
+                <td>UNDP-BRC-00231</td>
+                <td>RFQ: Interpretation Service [EN&lt;&gt;FR, EN&lt;&gt;ES, EN&lt;&gt;RU] in Bangkok (15-19June 26)</td>
+                <td><span class="badge false">FALSE</span></td>
+                <td><a href="https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45319" target="_blank">View</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+        function filterTable() {
+            const searchInput = document.getElementById('searchInput').value.toLowerCase();
+            const relevanceFilter = document.getElementById('relevanceFilter').value;
+            const table = document.getElementById('jobsTable');
+            const tr = table.getElementsByTagName('tr');
+
+            for (let i = 1; i < tr.length; i++) {
+                const tds = tr[i].getElementsByTagName('td');
+                if (tds.length > 0) {
+                    const dateText = tds[0].textContent || tds[0].innerText;
+                    const idText = tds[2].textContent || tds[2].innerText;
+                    const titleText = tds[3].textContent || tds[3].innerText;
+                    const relText = tds[4].textContent || tds[4].innerText;
+                    
+                    const matchesSearch = titleText.toLowerCase().indexOf(searchInput) > -1 || idText.toLowerCase().indexOf(searchInput) > -1 || dateText.toLowerCase().indexOf(searchInput) > -1;
+                    const matchesFilter = relevanceFilter === 'ALL' || relText.trim() === relevanceFilter;
+
+                    if (matchesSearch && matchesFilter) {
+                        tr[i].style.display = '';
+                    } else {
+                        tr[i].style.display = 'none';
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
