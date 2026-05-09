@@ -47,8 +47,7 @@ def load_history():
     return []
 
 def save_history(history):
-    # Keep only the last 2000 jobs to avoid unbounded growth
-    history = history[-2000:]
+    # User requested to keep all history in the JSON file indefinitely
     HISTORY_FILE.write_text(json.dumps(history, indent=2))
 
 # ================== UTILS ==================
@@ -330,8 +329,11 @@ def generate_html(history):
     # Sort history by date descending, relying on Python's stable sort to keep 
     # the original processing order within the same run.
     sorted_history = sorted(history, key=lambda x: x.get("date", ""), reverse=True)
+    
+    # Display maximum 10,000 entries on the site so the browser doesn't crash
+    display_history = sorted_history[:10000]
 
-    for job in sorted_history:
+    for job in display_history:
         rel_str = "TRUE" if job["relevant"] else "FALSE"
         rel_class = "true" if job["relevant"] else "false"
         title = str(job.get('title', '')).replace('<', '&lt;').replace('>', '&gt;')
