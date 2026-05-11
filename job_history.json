@@ -614,5 +614,21 @@
     "source": "WORLD_BANK",
     "relevant": true,
     "date": "2026-05-11 15:16"
+  },
+  {
+    "id": "AFDB-eoi-consultancy-services-conduct-technical-analysis-implications-gdp-rebasing-african-countries-ecmr-93075",
+    "title": "EOI - Consultancy services conduct a technical analysis on the implications of GDP rebasing on African countries - ECMR",
+    "link": "https://www.afdb.org/en/consultants/eoi-consultancy-services-conduct-technical-analysis-implications-gdp-rebasing-african-countries-ecmr-93075",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-05-11 22:09"
+  },
+  {
+    "id": "RFQ26-10195",
+    "title": "Enhancing Financial Awareness towards climate and disaster insurance solutions in Kiribati Communities through targeted campaigns",
+    "link": "https://www.spc.int/procurement/tenders/enhancing-financial-awareness-towards-climate-and-disaster-insurance-solutions",
+    "source": "SPC",
+    "relevant": true,
+    "date": "2026-05-11 22:09"
   }
 ]
