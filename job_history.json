@@ -886,5 +886,45 @@
     "source": "WORLD_BANK",
     "relevant": false,
     "date": "2026-05-12 11:22"
+  },
+  {
+    "id": "UNDP-MDG-00789",
+    "title": "UNDP-MDG-00789 CONSULTANT ELABORATION NORME NATIONALE SUR LE BIOGAZ A MADAGSACAR",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45425",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-05-12 14:31"
+  },
+  {
+    "id": "UNDP-JAM-00213",
+    "title": "Technical Support to Digitize Court Records",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45426",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-05-12 14:31"
+  },
+  {
+    "id": "UNDP-MDG-00788",
+    "title": "MDG00788 CABINET ASSISTANCE ELABORATION TEXTES RELATIFS AUX SERVICES ELECTRIQUES",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45427",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-05-12 14:31"
+  },
+  {
+    "id": "UNDP-TUN-01014",
+    "title": "Recrutement d\u2019un(e) expert (e) en gestion des connaissances",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45428",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-05-12 14:31"
+  },
+  {
+    "id": "UNDP-BIH-01557",
+    "title": "5NC-RFP-Development of BTR2 and NC5 as combined report under the UNFCCC",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45429",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-05-12 14:31"
   }
 ]
