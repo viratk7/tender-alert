@@ -1022,5 +1022,173 @@
     "source": "UNDP",
     "relevant": true,
     "date": "2026-05-13 08:47"
+  },
+  {
+    "id": "AFDB-eoi-urban-development-long-term-consultant-urban-and-municipal-development-fund-umdf-picu-93115",
+    "title": "EOI - Urban Development - Long-Term Consultant for the Urban and Municipal Development Fund (UMDF) - PICU",
+    "link": "https://www.afdb.org/en/consultants/eoi-urban-development-long-term-consultant-urban-and-municipal-development-fund-umdf-picu-93115",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00270822",
+    "title": "Acquisition de tablettes et de Kakemono num\u00e9riques au profit du personnel mobile de la biom\u00e9trie / CARFO",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00270822",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00332867",
+    "title": "Hiring of a consulting firm to prepare five (5) \u201cDistrict Revenue Mobilization and Administration Strategies\u201d for Kambia,  Bonthe, Kailahun, Moyamba and Koinadugu district councils",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00332867",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00333612",
+    "title": "S\u00e9lection d'une firme pour la r\u00e9alisation d'une Etude EIES/PAR Travaux Digues Niamey",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00333612",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00430261",
+    "title": "Fourniture de services de connectivit\u00e9 pour les sites gouvernementaux \u00e0 Bangui et Berberati, incluant un acc\u00e8s Internet s\u00e9curis\u00e9",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00430261",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00431982",
+    "title": "Procurement of Battery Energy Storage Systems (BESS) with Energy Management Systems (EMS) and Ancillary Equipment at Kyiv HPP / PSP, Kaniv, Kremenchuk and Seredniodniprovska Hydropower Plants, including related services (training of UHE staff)",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00431982",
+    "source": "WORLD_BANK",
+    "relevant": true,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00440460",
+    "title": "CONSTRUCTION OF STORM WATER DRAINAGE STRUCTURES FOR MOKWA GULLY EROSION SITE IN MOKWA, NIGER STATE",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00440460",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00441151",
+    "title": "Provision of Consultancy Services for Program Management and Capacity Building for Sustainable Rural Water Supply and Sanitation Program Phase II.",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00441151",
+    "source": "WORLD_BANK",
+    "relevant": true,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00441646",
+    "title": "Construction of Two Erosion Control and bio-engineering sites at Badariya and Dukku Malala Communities (Lot 1 & Lot 2).",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00441646",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00443409",
+    "title": "Technical Services for Structural and Seismic Safety Assessment of Public Buildings within CEBU Project in Fergana Region.",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00443409",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00443412",
+    "title": "Technical Services for Structural and Seismic Safety Assessment of Public Buildings within CEBU Project in Fergana Region.",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00443412",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00443935",
+    "title": "Centre d'Operations de S\u00e9curit\u00e9 Gouvernemental (GOVSOC)",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00443935",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00444132",
+    "title": "Recrutement d'un cabinet pour l'audit des comptes des bureaux CDVFQ",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00444132",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00444145",
+    "title": "Mykolaiv City: Clusters ML-01 and ML-03. Preparing technical assessments and design documentation for the capital repairs of the cluster of Multi-Family Buildings",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00444145",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00444179",
+    "title": "Recruitment of Academic Partner to Deliver Online Webinars, Online Self-paced trainings with supporting instructors, and face-to-face/Onsite-training programs for Policy and Decision makers.",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00444179",
+    "source": "WORLD_BANK",
+    "relevant": true,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00444238",
+    "title": "Consultancy Services for the Development of Sustainable Urban Mobility Plan (SUMP) for the Nairobi Metropolitan Area (NMA)",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00444238",
+    "source": "WORLD_BANK",
+    "relevant": true,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00444308",
+    "title": "Land Document Verification at the Sragen Regency Land Office FY 2025",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00444308",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00444309",
+    "title": "Local IT Firm (IT Support the CRVS project)",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00444309",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00444310",
+    "title": "S\u00e9lection d'un prestataire pour la formation, l'encadrement et l'appui \u00e0 l'insertion des b\u00e9n\u00e9ficiaires du programme azoli dans le domaine de la cordonnerie et la maroquinerie",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00444310",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00444315",
+    "title": "Recrutement d'un consultant national pour l'Elaboration des guides et outils de communications en langue nationale, carnet des parents",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00444315",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-05-13 11:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00444317",
+    "title": "Procurement of IT equipment for upgradation of Data Center (DC), Data Recovery Center (DRC) and FCGO/DTCO ICT Infrastructure - Procurement of IT equipment such as Data Center Switch",
+    "link": "http://projects.worldbank.org/en/projects-operations/procurement-detail/OP00444317",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-05-13 11:31"
   }
 ]
