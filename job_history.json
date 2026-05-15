@@ -1406,5 +1406,61 @@
     "source": "WORLD_BANK",
     "relevant": false,
     "date": "2026-05-14 11:15"
+  },
+  {
+    "id": "98836",
+    "title": "Javni poziv za dostavljanje projektnih prijedloga u okviru zajedni\u010dkog projekta Ujedinjenih nacija \"Akcelerator rodne ravnopravnosti\"",
+    "link": "https://procurement-notices.undp.org/view_notice.cfm?notice_id=98836",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-05-15 08:52"
+  },
+  {
+    "id": "UNDP-THA-00209",
+    "title": "RFP_Development of Digital MRV and Impact Reporting System for Thailand\u2019s SGP",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45545",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-05-15 08:52"
+  },
+  {
+    "id": "UNDP-KAZ-00697",
+    "title": "\u042d\u043a\u0441\u043f\u0435\u0440\u0442 \u043f\u043e \u0430\u0434\u0430\u043f\u0442\u0430\u0446\u0438\u0438 \u0438 \u043a\u043b\u0438\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u0440\u0438\u0441\u043a\u0430\u043c/Adaptation & Climate Risk Expert",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45548",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-05-15 08:52"
+  },
+  {
+    "id": "UNDP-LKA-00688",
+    "title": "IC/BIOFIN/2605/14-Payment for Ecosystem Services\u2013Partnership Development",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45549",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-05-15 08:52"
+  },
+  {
+    "id": "UNDP-MDA-00996",
+    "title": "RFP26/03274: Study on Illicit Environmental Activities",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45550",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-05-15 08:52"
+  },
+  {
+    "id": "UNDP-ZWE-01731",
+    "title": "Innovation Hub ICT Equipment",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45552",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-05-15 08:52"
+  },
+  {
+    "id": "UNDP-SOM-00639",
+    "title": "Office furniture for UN Clinic Hargeisa",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45547",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-05-15 08:52"
   }
 ]
