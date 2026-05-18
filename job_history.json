@@ -2174,5 +2174,29 @@
     "source": "WORLD_BANK",
     "relevant": false,
     "date": "2026-05-18 10:10"
+  },
+  {
+    "id": "AFDB-eoi-individual-consultant-provide-support-yeibs-other-sovereign-operations-pifd-93340",
+    "title": "EOI - Individual Consultant to provide support on YEIBs & other sovereign operations - PIFD",
+    "link": "https://www.afdb.org/en/consultants/eoi-individual-consultant-provide-support-yeibs-other-sovereign-operations-pifd-93340",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-05-18 15:38"
+  },
+  {
+    "id": "AFDB-eoi-consulting-firm-review-asset-and-liability-management-guidelines-and-investment-strategy-private-sector-credit-enhancement-facility-93338",
+    "title": "EOI - Consulting Firm to review the Asset and Liability Management guidelines and investment strategy of the Private Sector Credit Enhancement Facility -",
+    "link": "https://www.afdb.org/en/consultants/eoi-consulting-firm-review-asset-and-liability-management-guidelines-and-investment-strategy-private-sector-credit-enhancement-facility-93338",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-05-18 15:38"
+  },
+  {
+    "id": "AFDB-eoi-innovative-digital-finance-building-resilience-fragile-and-transition-contexts-rdts-93335",
+    "title": "EOI - Innovative Digital Finance for Building Resilience in Fragile and Transition Contexts - RDTS",
+    "link": "https://www.afdb.org/en/consultants/eoi-innovative-digital-finance-building-resilience-fragile-and-transition-contexts-rdts-93335",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-05-18 15:38"
   }
 ]
