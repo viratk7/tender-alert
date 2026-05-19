@@ -2198,5 +2198,29 @@
     "source": "AFDB",
     "relevant": true,
     "date": "2026-05-18 15:38"
+  },
+  {
+    "id": "UNDP-DZA-00281",
+    "title": "R\u00e9daction document de projet sur la constitution au service de l\u2019environnement",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45643",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-05-19 09:50"
+  },
+  {
+    "id": "UNDP-NPL-00670",
+    "title": "UNDP/RFP/17/2026-GTN-Technical support for thermal retrofitting of buildings",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45646",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-05-19 09:50"
+  },
+  {
+    "id": "UNDP-THA-00211",
+    "title": "RFP_Climate-Resilient Infrastructure Implementation and Capacity Building",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45647",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-05-19 09:50"
   }
 ]
