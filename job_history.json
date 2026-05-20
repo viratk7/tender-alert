@@ -2734,5 +2734,45 @@
     "source": "WORLD_BANK",
     "relevant": false,
     "date": "2026-05-20 15:28"
+  },
+  {
+    "id": "AFDB-eoi-technical-assistance-national-treasury-south-africa-we-finance-ahgc-93452",
+    "title": "EOI - Technical Assistance to the National Treasury Of South Africa - We Finance - AHGC",
+    "link": "https://www.afdb.org/en/consultants/eoi-technical-assistance-national-treasury-south-africa-we-finance-ahgc-93452",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-05-20 20:21"
+  },
+  {
+    "id": "AFDB-eoi-technical-assistance-central-bank-sierra-leone-implementation-wefinance-ahgc-93451",
+    "title": "EOI - Technical Assistance to the Central Bank of Sierra Leone in the implementation of the WeFinance - AHGC",
+    "link": "https://www.afdb.org/en/consultants/eoi-technical-assistance-central-bank-sierra-leone-implementation-wefinance-ahgc-93451",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-05-20 20:21"
+  },
+  {
+    "id": "AFDB-eoi-technical-assistance-central-bank-kenya-implementation-we-finance-ahgc-93450",
+    "title": "EOI - Technical Assistance to the Central Bank of Kenya in the implementation of the WE Finance - AHGC",
+    "link": "https://www.afdb.org/en/consultants/eoi-technical-assistance-central-bank-kenya-implementation-we-finance-ahgc-93450",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-05-20 20:21"
+  },
+  {
+    "id": "AFDB-eoi-technical-assistance-bank-tanzania-implementation-we-finance-ahgc-93449",
+    "title": "EOI - Technical Assistance to the Bank of Tanzania in the implementation of the WE Finance - AHGC",
+    "link": "https://www.afdb.org/en/consultants/eoi-technical-assistance-bank-tanzania-implementation-we-finance-ahgc-93449",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-05-20 20:21"
+  },
+  {
+    "id": "AFDB-eoi-technical-assistance-bank-ghana-implementation-we-finance-ahgc-93448",
+    "title": "EOI - Technical Assistance to the Bank of Ghana in the implementation of the WE Finance - AHGC",
+    "link": "https://www.afdb.org/en/consultants/eoi-technical-assistance-bank-ghana-implementation-we-finance-ahgc-93448",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-05-20 20:21"
   }
 ]
