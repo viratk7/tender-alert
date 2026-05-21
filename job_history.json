@@ -2854,5 +2854,85 @@
     "source": "SPREP",
     "relevant": true,
     "date": "2026-05-21 03:59"
+  },
+  {
+    "id": "UNDP-PHL-00936",
+    "title": "Supply and Delivery of ICT Equipment",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45734",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-05-21 09:46"
+  },
+  {
+    "id": "UNDP-TJK-00613",
+    "title": "Purchase and delivery of ICT equipment",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45737",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-05-21 09:46"
+  },
+  {
+    "id": "UNDP-AFG-00813",
+    "title": "RFQ for Construction Canal Intake, Culvert, Protection Wall, Takhar, Afghanistan",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45735",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-05-21 09:46"
+  },
+  {
+    "id": "UNDP-KGZ-00820",
+    "title": "National Consultant on PFM Strategy Development  (NC11)",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45736",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-05-21 09:46"
+  },
+  {
+    "id": "UNDP-SWZ-00238",
+    "title": "Individual Consultant for the Establishment of a Job Creation Observatory",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45738",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-05-21 09:46"
+  },
+  {
+    "id": "UNDP-PAK-01612",
+    "title": "UNDP-IC-2026-119: Local Governance Strategy and Implementation Specialist - MAGP",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45739",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-05-21 09:46"
+  },
+  {
+    "id": "UNDP-TLS-00329",
+    "title": "Local Engineering Roster for Climate\u2011Resilient and Sustainable Infrastructure",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45740",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-05-21 09:46"
+  },
+  {
+    "id": "UNDP-BTN-00152",
+    "title": "RFQ - Plastic Waste Shredders",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45741",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-05-21 09:46"
+  },
+  {
+    "id": "UNDP-EGY-00800",
+    "title": "Design & implement a nationwide ideation programme DEDI",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45742",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-05-21 09:46"
+  },
+  {
+    "id": "AFDB-eoi-recruitment-consulting-firm-development-electricity-tariff-design-guidelines-nigerian-states-pesr-93453",
+    "title": "EOI - Recruitment of a Consulting Firm for the Development of Electricity Tariff Design Guidelines for Nigerian States - PESR",
+    "link": "https://www.afdb.org/en/consultants/eoi-recruitment-consulting-firm-development-electricity-tariff-design-guidelines-nigerian-states-pesr-93453",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-05-21 09:46"
   }
 ]
