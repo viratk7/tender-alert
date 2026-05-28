@@ -4478,5 +4478,29 @@
     "source": "AFDB",
     "relevant": false,
     "date": "2026-05-27 20:21"
+  },
+  {
+    "id": "RFQ26-10291",
+    "title": "Consultancy services for strategic advisory and technical support to Pacific Girl Programme",
+    "link": "https://www.spc.int/procurement/tenders/consultancy-services-for-strategic-advisory-and-technical-support-to-pacific",
+    "source": "SPC",
+    "relevant": false,
+    "date": "2026-05-28 03:52"
+  },
+  {
+    "id": "RFQ26-10283",
+    "title": "Technical Expert - Environmental Social Safeguards (Post  Granting Phase)",
+    "link": "https://www.spc.int/procurement/tenders/technical-expert-environmental-social-safeguards-post-granting-phase",
+    "source": "SPC",
+    "relevant": true,
+    "date": "2026-05-28 03:52"
+  },
+  {
+    "id": "RFQ26-10282",
+    "title": "National Consultancy Services: Facilitating Agent \u2013 Chuuk State",
+    "link": "https://www.spc.int/procurement/tenders/national-consultancy-services-facilitating-agent-chuuk-state",
+    "source": "SPC",
+    "relevant": true,
+    "date": "2026-05-28 03:52"
   }
 ]
