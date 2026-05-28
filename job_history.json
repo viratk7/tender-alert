@@ -4702,5 +4702,45 @@
     "source": "WORLD_BANK",
     "relevant": false,
     "date": "2026-05-28 16:03"
+  },
+  {
+    "id": "UNCDF-00638",
+    "title": "Provision of Event Management Services for the National Clean Cooking Conference",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45950",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-05-28 20:27"
+  },
+  {
+    "id": "UNDP-SLV-00531",
+    "title": "UNDP-SLV-00531 - Marco Normativo Econom\u00eda Circular",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45953",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-05-28 20:27"
+  },
+  {
+    "id": "UNDP-COL-03278",
+    "title": "PAZ - An\u00e1lisis exploratorio de mercado laboral de sectores productivos",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=45954",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-05-28 20:27"
+  },
+  {
+    "id": "AFDB-ami-consultant-expert-en-energie-renouvelable-en-mauritanie-pern-93751",
+    "title": "AMI - Consultant expert en \u00e9nergie renouvelable en Mauritanie - PERN",
+    "link": "https://www.afdb.org/en/consultants/ami-consultant-expert-en-energie-renouvelable-en-mauritanie-pern-93751",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-05-28 20:27"
+  },
+  {
+    "id": "AFDB-eoi-communications-knowledge-management-advocacy-consultant-adfi-93750",
+    "title": "EOI - Communications, Knowledge Management & Advocacy Consultant - ADFI",
+    "link": "https://www.afdb.org/en/consultants/eoi-communications-knowledge-management-advocacy-consultant-adfi-93750",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-05-28 20:27"
   }
 ]
