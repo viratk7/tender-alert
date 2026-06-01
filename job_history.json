@@ -5350,5 +5350,21 @@
     "source": "WORLD_BANK",
     "relevant": false,
     "date": "2026-05-31 11:00"
+  },
+  {
+    "id": "UNDP-PHL-00946",
+    "title": "Specialist for Protected Area Master Plan Development",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46005",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-06-01 04:20"
+  },
+  {
+    "id": "UNDP-PHL-00947",
+    "title": "Disposal of Used Vehicle through Sale",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46006",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-01 04:20"
   }
 ]
