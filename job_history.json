@@ -5998,5 +5998,29 @@
     "source": "WORLD_BANK",
     "relevant": false,
     "date": "2026-06-03 11:04"
+  },
+  {
+    "id": "UNCDF-00638-2",
+    "title": "Provision of Event Management Services for the National Clean Cooking Conference",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46145",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-06-03 16:54"
+  },
+  {
+    "id": "UNCDF-00644",
+    "title": "MEDIA & COMMUNICATIONS FIRM",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46150",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-03 16:54"
+  },
+  {
+    "id": "UNCDF-00645",
+    "title": "Capitalisation des enseignements et faisabilit\u00e9 d\u2019un fonds d\u2019appui en RDC",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46157",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-06-03 16:54"
   }
 ]
