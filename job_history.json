@@ -5798,5 +5798,37 @@
     "source": "AFDB",
     "relevant": false,
     "date": "2026-06-02 16:38"
+  },
+  {
+    "id": "UNDP-MNG-00672",
+    "title": "RFQ/2026/003 Riparian Forest Restoration, Cleaning and Reforestation (4 lots)",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46111",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-06-03 04:23"
+  },
+  {
+    "id": "UNDP-PNG-00184",
+    "title": "National Legal Policy Consultant",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46112",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-06-03 04:23"
+  },
+  {
+    "id": "UNDP-WSM-00236",
+    "title": "Individual Contractor \u2013 Laboratory Design, Drawings & Bill Of Quantities Special",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46113",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-03 04:23"
+  },
+  {
+    "id": "UNDP-NPL-00679",
+    "title": "UNDP/RFP/21/2026-Water Resistivity Survey and Pump Test Assessment",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46114",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-03 04:23"
   }
 ]
