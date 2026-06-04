@@ -6030,5 +6030,37 @@
     "source": "AFDB",
     "relevant": true,
     "date": "2026-06-03 20:58"
+  },
+  {
+    "id": "UNDP-JAM-00215",
+    "title": "LTA: Cleaning services for United Nations offices in Jamaica",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46173",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-04 04:18"
+  },
+  {
+    "id": "AFDB-ami-etude-de-faisabilite-pour-le-developpement-dune-centrale-solaire-pv-bess-pern-94112",
+    "title": "AMI - \u00c9tude de faisabilit\u00e9 pour le d\u00e9veloppement d'une centrale solaire (PV) + BESS - PERN",
+    "link": "https://www.afdb.org/en/consultants/ami-etude-de-faisabilite-pour-le-developpement-dune-centrale-solaire-pv-bess-pern-94112",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-06-04 04:18"
+  },
+  {
+    "id": "RFQ26-10296",
+    "title": "Consultancy services to lead the KAP Survey Data Analysis and Reporting",
+    "link": "https://www.spc.int/procurement/tenders/consultancy-services-to-lead-the-kap-survey-data-analysis-and-reporting",
+    "source": "SPC",
+    "relevant": false,
+    "date": "2026-06-04 04:18"
+  },
+  {
+    "id": "RFQ26-10289",
+    "title": "Consultancy for the Project Management and Reporting System (PMRS)",
+    "link": "https://www.spc.int/procurement/tenders/consultancy-for-the-project-management-and-reporting-system-pmrs",
+    "source": "SPC",
+    "relevant": false,
+    "date": "2026-06-04 04:18"
   }
 ]
