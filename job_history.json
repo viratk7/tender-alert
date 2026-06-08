@@ -6854,5 +6854,29 @@
     "source": "WORLD_BANK",
     "relevant": false,
     "date": "2026-06-07 13:58"
+  },
+  {
+    "id": "UNCDF-00646",
+    "title": "RFP Conduct Qualitative Demand-side Survey in Cambodia",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46298",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-06-08 04:15"
+  },
+  {
+    "id": "UNDP-MNG-00674",
+    "title": "IC/2026/048 - Pubilc finance expert (National Consultant)",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46299",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-08 04:15"
+  },
+  {
+    "id": "UNDP-YEM-00706",
+    "title": "IC-National Consultant:Climate Change Expert",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46300",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-06-08 04:15"
   }
 ]
