@@ -8182,5 +8182,21 @@
     "source": "UNDP",
     "relevant": false,
     "date": "2026-06-11 16:07"
+  },
+  {
+    "id": "AFDB-eoi-consultant-change-management-practitioner-snbt-94321",
+    "title": "EOI - Consultant - Change Management Practitioner - SNBT",
+    "link": "https://www.afdb.org/en/consultants/eoi-consultant-change-management-practitioner-snbt-94321",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-06-11 20:25"
+  },
+  {
+    "id": "AFDB-eoi-evaluation-africa-climate-change-fund-accf-pecg-94318",
+    "title": "EOI - Evaluation of the Africa Climate Change Fund (ACCF) - PECG",
+    "link": "https://www.afdb.org/en/consultants/eoi-evaluation-africa-climate-change-fund-accf-pecg-94318",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-06-11 20:25"
   }
 ]
