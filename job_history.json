@@ -8262,5 +8262,53 @@
     "source": "SPC",
     "relevant": false,
     "date": "2026-06-12 04:14"
+  },
+  {
+    "id": "UNDP-ZWE-01808",
+    "title": "Procurement of Syringes, Needles and Surgical Sundries",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46536",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-12 10:17"
+  },
+  {
+    "id": "UNDP-TJK-00620",
+    "title": "Supply and installation of diesel generator",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46537",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-12 10:17"
+  },
+  {
+    "id": "UNDP-BIH-01577",
+    "title": "DFF3-IC-National Evaluator - Perception Survey Expert",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46538",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-12 10:17"
+  },
+  {
+    "id": "UNDP-IND-00793",
+    "title": "RFP-052-IND-2026State Level Project Preparation for Climate Resilient Developmen",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46539",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-06-12 10:17"
+  },
+  {
+    "id": "UNDP-KOS-00529",
+    "title": "Geodesy Engineer",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46544",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-12 10:17"
+  },
+  {
+    "id": "UNDP-KOS-00530",
+    "title": "Legal Advisor",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46545",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-12 10:17"
   }
 ]
