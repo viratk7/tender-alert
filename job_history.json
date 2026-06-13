@@ -8486,5 +8486,37 @@
     "source": "UNDP",
     "relevant": false,
     "date": "2026-06-12 22:26"
+  },
+  {
+    "id": "UNDP-LKA-00703",
+    "title": "RFQ/JSB CP5/2606/36 - Procurement of Sprinkler Irrigations Systems",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46578",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-13 04:01"
+  },
+  {
+    "id": "AFDB-eoi-recruitment-senior-consultant-business-intelligence-data-analytics-engineer-tcis-94383",
+    "title": "EOI - Recruitment of Senior Consultant \u2013 Business Intelligence & Data Analytics Engineer - TCIS",
+    "link": "https://www.afdb.org/en/consultants/eoi-recruitment-senior-consultant-business-intelligence-data-analytics-engineer-tcis-94383",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-06-13 04:01"
+  },
+  {
+    "id": "AFDB-software-architect-tcis-94381",
+    "title": "EOI - Recruitment of Senior Software Engineer / Software Architect - TCIS",
+    "link": "https://www.afdb.org/en/consultants/eoi-recruitment-senior-software-engineer/software-architect-tcis-94381",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-06-13 04:01"
+  },
+  {
+    "id": "AFDB-eoi-procurement-expert-corporate-procurement-division-tcgs-94354",
+    "title": "EOI - Procurement Expert for Corporate Procurement Division - TCGS",
+    "link": "https://www.afdb.org/en/consultants/eoi-procurement-expert-corporate-procurement-division-tcgs-94354",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-06-13 04:01"
   }
 ]
