@@ -9710,5 +9710,45 @@
     "source": "AFDB",
     "relevant": true,
     "date": "2026-06-17 15:38"
+  },
+  {
+    "id": "UNDP-PHL-00967",
+    "title": "Individual Consultant - Green Public Procurement (GPP) Expert",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46725",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-06-18 04:14"
+  },
+  {
+    "id": "UNDP-IDN-00869",
+    "title": "Second Party Opinion (SPO) for PT PLN (Persero) Transition Finance Framework",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46727",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-06-18 04:14"
+  },
+  {
+    "id": "AFDB-eoi-acea-coordinator-consultant-pecg-94553",
+    "title": "EOI - ACEA Coordinator Consultant - PECG",
+    "link": "https://www.afdb.org/en/consultants/eoi-acea-coordinator-consultant-pecg-94553",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-06-18 04:14"
+  },
+  {
+    "id": "EOI26-10320",
+    "title": "Expression of Interest (EOI) Qualifications and Standards External Evaluators",
+    "link": "https://www.spc.int/procurement/tenders/expression-of-interest-eoi-qualifications-and-standards-external-evaluators-0",
+    "source": "SPC",
+    "relevant": false,
+    "date": "2026-06-18 04:14"
+  },
+  {
+    "id": "RFQ26-10244",
+    "title": "Tonga Fire and Emergency Services (TFES) Consultancy",
+    "link": "https://www.spc.int/procurement/tenders/tonga-fire-and-emergency-services-tfes-consultancy",
+    "source": "SPC",
+    "relevant": false,
+    "date": "2026-06-18 04:14"
   }
 ]
