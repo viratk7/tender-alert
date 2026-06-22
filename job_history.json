@@ -10830,5 +10830,29 @@
     "source": "UNDP",
     "relevant": false,
     "date": "2026-06-22 18:48"
+  },
+  {
+    "id": "AFDB-eoi-ta-bankable-feasibility-studies-solar-pv-selected-transnet-rail-infrastructure-manager-trim-sites-pern-94702",
+    "title": "EOI - TA for bankable feasibility studies for Solar PV at selected Transnet Rail Infrastructure Manager (TRIM) Sites - PERN",
+    "link": "https://www.afdb.org/en/consultants/eoi-ta-bankable-feasibility-studies-solar-pv-selected-transnet-rail-infrastructure-manager-trim-sites-pern-94702",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-06-22 22:48"
+  },
+  {
+    "id": "AFDB-eoi-individual-consultant-social-media-arabic-pcer-94701",
+    "title": "EOI - Individual consultant social media (Arabic) - PCER",
+    "link": "https://www.afdb.org/en/consultants/eoi-individual-consultant-social-media-arabic-pcer-94701",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-06-22 22:48"
+  },
+  {
+    "id": "AFDB-picu-94699",
+    "title": "EOI - Individual Consultant Transport Engineer - RDGE/PICU",
+    "link": "https://www.afdb.org/en/consultants/eoi-individual-consultant-transport-engineer-rdge/picu-94699",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-06-22 22:48"
   }
 ]
