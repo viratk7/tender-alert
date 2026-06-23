@@ -10854,5 +10854,69 @@
     "source": "AFDB",
     "relevant": false,
     "date": "2026-06-22 22:48"
+  },
+  {
+    "id": "UNCDF-00655",
+    "title": "RFP Event Management services for Digital Finance & Remittance Management Fair",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46864",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-23 09:45"
+  },
+  {
+    "id": "UNCDF-00654",
+    "title": "RFP Develop Cambodia SCF Framework, Operational Manual and National Roadmap",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46860",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-06-23 09:45"
+  },
+  {
+    "id": "UNDP-ETH-00742",
+    "title": "National Consultant Firm to Conduct a a Rapid Assessment",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46865",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-06-23 09:45"
+  },
+  {
+    "id": "UNDP-UGA-00551",
+    "title": "National Consultant for Terminal Evaluation for the Scaling Solar Applications",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46866",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-06-23 09:45"
+  },
+  {
+    "id": "UNDP-TCD-00923",
+    "title": "UNDP-TCD-00923-Organisation d'un Dialogue strat\u00e9gique avec les m\u00e9dias",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46868",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-23 09:45"
+  },
+  {
+    "id": "UNDP-SOM-00661",
+    "title": "Accommodation and transport for Learning Mission within Nairobi",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46871",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-23 09:45"
+  },
+  {
+    "id": "UNDP-PHL-00970",
+    "title": "National Individual Consultant for EPR Readiness in Selected Tier 1B LGUs",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46862",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-06-23 09:45"
+  },
+  {
+    "id": "RFQ26-10336",
+    "title": "Pacific Women Lead at SPC",
+    "link": "https://www.spc.int/procurement/tenders/pacific-women-lead-at-spc",
+    "source": "SPC",
+    "relevant": false,
+    "date": "2026-06-23 09:45"
   }
 ]
