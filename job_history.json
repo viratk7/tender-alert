@@ -11078,5 +11078,37 @@
     "source": "WORLD_BANK",
     "relevant": false,
     "date": "2026-06-23 14:54"
+  },
+  {
+    "id": "AFDB-eoi-professional-placement-agency-support-implementation-business-service-facility-amap-2-pern-94785",
+    "title": "EOI - Professional placement agency to support the implementation of a business service facility - AMAP 2 - PERN",
+    "link": "https://www.afdb.org/en/consultants/eoi-professional-placement-agency-support-implementation-business-service-facility-amap-2-pern-94785",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-06-23 17:19"
+  },
+  {
+    "id": "AFDB-eoi-investment-officer-industry-and-services-pitd-94784",
+    "title": "EOI - Investment Officer, Industry and Services - PITD",
+    "link": "https://www.afdb.org/en/consultants/eoi-investment-officer-industry-and-services-pitd-94784",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-06-23 17:19"
+  },
+  {
+    "id": "AFDB-eoi-consultant-guide-mozambiques-critical-minerals-strategy-preparation-paper-ecce-94754",
+    "title": "EOI - Consultant to Guide Mozambique\u2019s Critical Minerals Strategy Preparation Paper - ECCE",
+    "link": "https://www.afdb.org/en/consultants/eoi-consultant-guide-mozambiques-critical-minerals-strategy-preparation-paper-ecce-94754",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-06-23 17:19"
+  },
+  {
+    "id": "AFDB-eoi-ta-implementation-re-and-ee-line-credit-diamond-trust-bank-dtb-k-pern-94753",
+    "title": "EOI - TA for the implementation of an RE and EE Line of Credit- Diamond Trust Bank (DTB-K) - PERN",
+    "link": "https://www.afdb.org/en/consultants/eoi-ta-implementation-re-and-ee-line-credit-diamond-trust-bank-dtb-k-pern-94753",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-06-23 17:19"
   }
 ]
