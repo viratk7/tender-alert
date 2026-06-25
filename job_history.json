@@ -11422,5 +11422,61 @@
     "source": "AFDB",
     "relevant": false,
     "date": "2026-06-24 17:07"
+  },
+  {
+    "id": "UNDP-THA-00213",
+    "title": "RFP_Firm/ Institute supporting Thailand Competitiveness Study",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46961",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-25 09:26"
+  },
+  {
+    "id": "UNDP-DJI-00237",
+    "title": "RFP- Climate Risk and Vulnerability Assessment (CRVA)",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46958",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-06-25 09:26"
+  },
+  {
+    "id": "UNDP-YEM-00713",
+    "title": "Supply Furniture, Kitchen Tools and Electronics",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46954",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-25 09:26"
+  },
+  {
+    "id": "UNDP-MUS-00231",
+    "title": "Procurement of National Project Consultant",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46955",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-25 09:26"
+  },
+  {
+    "id": "UNDP-UGA-00552",
+    "title": "Construction of MWETA eco-tourism development infrastructure",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46957",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-25 09:26"
+  },
+  {
+    "id": "UNDP-FJI-00789",
+    "title": "National Consultant \u2013 Special Management Area (SMA) Consultant-Tonga",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46959",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-06-25 09:26"
+  },
+  {
+    "id": "UNDP-SYR-00640",
+    "title": "National Individual Contract for Security Operations Center Assistant-UNDSS",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=46960",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-06-25 09:26"
   }
 ]
