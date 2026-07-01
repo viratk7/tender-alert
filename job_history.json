@@ -12798,5 +12798,37 @@
     "source": "AFDB",
     "relevant": true,
     "date": "2026-06-30 22:16"
+  },
+  {
+    "id": "UNDP-PNG-00188",
+    "title": "National Parliamentary advocacy coordination",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47119",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-01 04:08"
+  },
+  {
+    "id": "UNDP-HTI-00592",
+    "title": "RECRUTEMENT D'UN PRESTATAIRE DE SERVICES DE RESTAURATION AU PROFIT DES AGENTS",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47120",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-01 04:08"
+  },
+  {
+    "id": "RFP26-10391",
+    "title": "Solar Pumps and Technical Assistance for Kiritimati Island",
+    "link": "https://www.spc.int/procurement/tenders/solar-pumps-and-technical-assistance-for-kiritimati-island-0",
+    "source": "SPC",
+    "relevant": true,
+    "date": "2026-07-01 04:08"
+  },
+  {
+    "id": "RFP26-10201",
+    "title": "Preferred Supplier Agreements for Ocean Acidification Technical Expert",
+    "link": "https://www.spc.int/procurement/tenders/preferred-supplier-agreements-for-ocean-acidification-technical-expert",
+    "source": "SPC",
+    "relevant": true,
+    "date": "2026-07-01 04:08"
   }
 ]
