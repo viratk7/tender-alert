@@ -13118,5 +13118,21 @@
     "source": "AFDB",
     "relevant": false,
     "date": "2026-07-01 17:19"
+  },
+  {
+    "id": "RFQ26-10392",
+    "title": "(Consultancy Services) Climate Finance Advisor, FSM Readiness Programme with the GCF",
+    "link": "https://www.spc.int/procurement/tenders/consultancy-services-climate-finance-advisor-fsm-readiness-programme-with-the-0",
+    "source": "SPC",
+    "relevant": true,
+    "date": "2026-07-02 03:49"
+  },
+  {
+    "id": "RFP26-10199",
+    "title": "Purchase of a High-Performance NVMe Storage Server",
+    "link": "https://www.spc.int/procurement/tenders/purchase-of-a-high-performance-nvme-storage-server",
+    "source": "SPC",
+    "relevant": false,
+    "date": "2026-07-02 03:49"
   }
 ]
