@@ -13198,5 +13198,29 @@
     "source": "UNDP",
     "relevant": true,
     "date": "2026-07-02 09:16"
+  },
+  {
+    "id": "AFDB-eoi-consultancy-firm-recruitment-value-chain-and-agribusiness-development-along-lobito-corridor-ahai-95142",
+    "title": "EOI - Consultancy Firm Recruitment for Value Chain and Agribusiness Development along the Lobito Corridor - AHAI",
+    "link": "https://www.afdb.org/en/consultants/eoi-consultancy-firm-recruitment-value-chain-and-agribusiness-development-along-lobito-corridor-ahai-95142",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-07-02 14:06"
+  },
+  {
+    "id": "WORLD_BANK-OP00449112",
+    "title": "Assurer l'exploitation et la maintenance efficace, continue et s\u00fbre des r\u00e9seaux de distribution d'\u00e9lectricit\u00e9 moyenne et basse tension hors de la ville de Bissau.",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00449112",
+    "source": "WORLD_BANK",
+    "relevant": true,
+    "date": "2026-07-02 14:06"
+  },
+  {
+    "id": "WORLD_BANK-OP00454420",
+    "title": "Construction of Multi-commodity pack house, Vapour Heat Treatment (VHT) unit with integrated Pack house and  Irradiation Unit & scientific cold storage facilities at Bapgaon (Thane)",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00454420",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-02 14:06"
   }
 ]
