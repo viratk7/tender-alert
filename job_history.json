@@ -13334,5 +13334,21 @@
     "source": "WORLD_BANK",
     "relevant": false,
     "date": "2026-07-03 14:11"
+  },
+  {
+    "id": "UNDP-MDA-01043",
+    "title": "Qu26/03103:Two National Experts on Institutional Trust and Conflict Sensitivity",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47250",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-03 16:26"
+  },
+  {
+    "id": "UNDP-MDA-01044",
+    "title": "Qu26/03247:Nistru/International Consultant on Biodiversity Restoration",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47251",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-03 16:26"
   }
 ]
