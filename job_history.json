@@ -13358,5 +13358,29 @@
     "source": "WORLD_BANK",
     "relevant": false,
     "date": "2026-07-04 10:55"
+  },
+  {
+    "id": "UNDP-VEN-00640",
+    "title": "ADQUISICI\u00d3N DE EQUIPOS INFORMATICOS",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47266",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-04 16:05"
+  },
+  {
+    "id": "UNDP-VEN-00639",
+    "title": "ADQUISICI\u00d3N DE PLANTA ELECTRICA",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47267",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-04 16:05"
+  },
+  {
+    "id": "UNDP-YEM-00728,1",
+    "title": "Design and Delivery of a Fintech Sandbox Simulation and Data Exchange",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47268",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-04 16:05"
   }
 ]
