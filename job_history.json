@@ -13534,5 +13534,21 @@
     "source": "AFDB",
     "relevant": true,
     "date": "2026-07-06 10:27"
+  },
+  {
+    "id": "AFDB-eoi-private-sector-operations-officer-consultant-rdgs-95233",
+    "title": "EOI - Private Sector Operations Officer Consultant - RDGS",
+    "link": "https://www.afdb.org/en/consultants/eoi-private-sector-operations-officer-consultant-rdgs-95233",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-07-06 15:37"
+  },
+  {
+    "id": "AFDB-eoi-agribusiness-digital-transformation-and-climate-resilience-support-ghana-sadep-project-ahhd-95231",
+    "title": "EOI - Agribusiness Digital Transformation and Climate Resilience Support for the Ghana SADEP Project - AHHD",
+    "link": "https://www.afdb.org/en/consultants/eoi-agribusiness-digital-transformation-and-climate-resilience-support-ghana-sadep-project-ahhd-95231",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-07-06 15:37"
   }
 ]
