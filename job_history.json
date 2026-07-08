@@ -14038,5 +14038,21 @@
     "source": "WORLD_BANK",
     "relevant": false,
     "date": "2026-07-08 11:07"
+  },
+  {
+    "id": "AFDB-eoi-junior-consultant-adoption-and-change-management-acm-snbt-95284",
+    "title": "EOI - Junior Consultant in Adoption and Change Management (ACM) - SNBT",
+    "link": "https://www.afdb.org/en/consultants/eoi-junior-consultant-adoption-and-change-management-acm-snbt-95284",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-07-08 14:17"
+  },
+  {
+    "id": "AFDB-eoi-junior-procurement-consultant-operations-snfi-95283",
+    "title": "EOI - Junior Procurement Consultant Operations - SNFI",
+    "link": "https://www.afdb.org/en/consultants/eoi-junior-procurement-consultant-operations-snfi-95283",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-07-08 14:17"
   }
 ]
