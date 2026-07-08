@@ -14054,5 +14054,21 @@
     "source": "AFDB",
     "relevant": false,
     "date": "2026-07-08 14:17"
+  },
+  {
+    "id": "AFDB-eoi-sapz-portfolio-management-consultant-ahfr-95296",
+    "title": "EOI - SAPZ Portfolio Management Consultant - AHFR",
+    "link": "https://www.afdb.org/en/consultants/eoi-sapz-portfolio-management-consultant-ahfr-95296",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-07-08 19:35"
+  },
+  {
+    "id": "RFQ26-10298-1",
+    "title": "Consultancy Services to Lead the KAP Survey Data Collection and Reporting for Vanuatu.",
+    "link": "https://www.spc.int/procurement/tenders/consultancy-services-to-lead-the-kap-survey-data-collection-and-reporting-for",
+    "source": "SPC",
+    "relevant": true,
+    "date": "2026-07-08 19:35"
   }
 ]
