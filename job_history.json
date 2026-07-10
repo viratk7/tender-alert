@@ -14462,5 +14462,229 @@
     "source": "UNDP",
     "relevant": false,
     "date": "2026-07-10 09:39"
+  },
+  {
+    "id": "UNDP-UKR-01721",
+    "title": "237_Procurement of ICT equipment for various locations in Ukraine",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47465",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "UNDP-MOZ-00938",
+    "title": "Rehabilitation Works",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47466",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "UNDP-GNB-00373",
+    "title": "National Consultant to Support the Terminal Evaluation of a project",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47467",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "UNDP-GHA-00535",
+    "title": "IC - Conduct MSME Capacity Assessments, Market Readiness Diagnostics",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47468",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "UNDP-GNQ-00176",
+    "title": "DIAGN\u00d3STICO PARA MANTENIMIENTO PREVENTIVO Y MEJORA DE RED EL\u00c9CTRICA-EDIFICIO ONU",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47469",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "UNDP-UKR-01715",
+    "title": "217_Procurement of furniture for various locations.",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47470",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "UNDP-BIH-01596",
+    "title": "GTP-RFP-Revision of Circular Economy Roadmap for BIH 2024-2030",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47461",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "UNDP-MMR-00355",
+    "title": "RFP-Awareness Raising Campaign and Training on Debris and Waste Management",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47462",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00406123",
+    "title": "Chattogram Water Supply Improvement Project",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00406123",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00447331",
+    "title": "Servi\u00e7o de Consultoria para Treinamento de Gestores Hospitalares -\nCurso de Gest\u00e3o Hospitalar N\u00edvel I e II na SESAPI/PI",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00447331",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00453668",
+    "title": "Auditoria externa - 2026/2029",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00453668",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00453674",
+    "title": "S-FSRP National Project Administration",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00453674",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00454772",
+    "title": "Engineer Consultancy Services for Civil Works Phase 4 of Fiber Optic Infrastructure Rollout",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00454772",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00455006",
+    "title": "Procurement of 4,857,876 pcs of Targeted Instruction Teacher's Guide and Textbooks",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455006",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00455116",
+    "title": "Douala-Bangui Economic Corridor Project",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455116",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00455239",
+    "title": "Travaux d\u2019am\u00e9nagement en trois (03) lots des voies urbaines de rabattement du corridor de \u00ab BUS RAPID TRANSIT \u00bb (BRT) dans la ville de Douala \u2013 phase 2 (66,796 KM",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455239",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00455274",
+    "title": "\u00c9tudes APS, APD et DAO relatifs \u00e0 la construction des ouvrages d\u2019\u00e9lectrification des localit\u00e9s et densification de r\u00e9seaux",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455274",
+    "source": "WORLD_BANK",
+    "relevant": true,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00455581",
+    "title": "Stormwater Management and Land Reclamation in Eruda, Ilorin West LGA.",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455581",
+    "source": "WORLD_BANK",
+    "relevant": true,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00455589",
+    "title": "Content Development Project Manager (upper secondary school, \npilot lyceums\u2019 coordination)",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455589",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00455663",
+    "title": "Consultancy Services Procurement for Activities to be Supported within the Scope of Establishing Shared Machinery Parks",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455663",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00455715",
+    "title": "Non-consulting services for the development of an institution's website",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455715",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00455716",
+    "title": "Procurement of Bamboo and Wood Equipment and accessories.",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455716",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00455719",
+    "title": "Procurement of Construction Solar Powered Pipe Scheme Projects in Gardalang and Ghajorak Villages in Du Liana District of Ghor Province",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455719",
+    "source": "WORLD_BANK",
+    "relevant": true,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00455720",
+    "title": "Recrutement d'un Expert International  en FGB",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455720",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00455721",
+    "title": "Selection of Individual Consultant for Technology Governance",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455721",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00455723",
+    "title": "Selection of Individual Consultant for  Monitoring, Customizing, and developing Software.",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455723",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00455725",
+    "title": "Improvement of the Document Management System of the Executive Office of the President of the Republic of Tajikistan",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455725",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
+  },
+  {
+    "id": "WORLD_BANK-OP00455726",
+    "title": "Procurement of crop seeds   (Onion, Watermelon, and Tomato)",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455726",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-10 14:31"
   }
 ]
