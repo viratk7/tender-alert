@@ -16030,5 +16030,29 @@
     "source": "UNDP",
     "relevant": false,
     "date": "2026-07-16 16:18"
+  },
+  {
+    "id": "UNDP-VNM-02253",
+    "title": "National firm to support implementation of community-based ecotourism model",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47709",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-17 05:44"
+  },
+  {
+    "id": "RFQ26-10500",
+    "title": "Supply and installation of Web-based Monitoring and  Evaluation online tracker for Fiji National Disaster Risk Management Office",
+    "link": "https://www.spc.int/procurement/tenders/supply-and-installation-of-web-based-monitoring-and-evaluation-online-tracker",
+    "source": "SPC",
+    "relevant": true,
+    "date": "2026-07-17 05:44"
+  },
+  {
+    "id": "RFP26-10072",
+    "title": "Occupational Preventive Medicine Services",
+    "link": "https://www.spc.int/procurement/tenders/occupational-preventive-medicine-services",
+    "source": "SPC",
+    "relevant": false,
+    "date": "2026-07-17 05:44"
   }
 ]
