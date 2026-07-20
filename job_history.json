@@ -16742,5 +16742,181 @@
     "source": "SPC",
     "relevant": true,
     "date": "2026-07-20 09:18"
+  },
+  {
+    "id": "UNDP-TUN-01075",
+    "title": "IC charg\u00e9(e) d\u2019appuyer une analyse approfondie du niveau de maturit\u00e9",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47793",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "UNDP-SUR-00178",
+    "title": "Gender/Safeguards",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47774",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00456496",
+    "title": "Consultancy Services for Review, Updating of Designs, Preparation of Detailed Engineering Designs, Tender Documentation, and Construction Supervision of Priority Drainage Interventions in Dar es Salaam under the DMDP 2",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456496",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457599",
+    "title": "Procurement of construction of Sharq Rod Khana Village Solar Powered Pipe Scheme Project, Gulran District, Herat Province",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457599",
+    "source": "WORLD_BANK",
+    "relevant": true,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457602",
+    "title": "Procurement of 32 TRALARD II Project vehicles",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457602",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457603",
+    "title": "Construction of Legada upgrading of SSIP at Saro Sento Kebele in Botor Tolay Woreda, Jimma Zone.",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457603",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457604",
+    "title": "Construction of Sota upgrading SSI at Sakella Genefo kebele in Seka Chokorsa kebeles in Seka Chokorsa woreda Jimma zone.",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457604",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457605",
+    "title": "NGO for Muthana",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457605",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457606",
+    "title": "NGO for Salah Deen",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457606",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457607",
+    "title": "Procurement of construction of  Solar Powered Pipe Scheme Project in Shekhan Ada and Sulaiman Khil villages in Mizan District in Zabul Province.",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457607",
+    "source": "WORLD_BANK",
+    "relevant": true,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457609",
+    "title": "Supply of Furniture for Cox's Bazar South Forest Division",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457609",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457610",
+    "title": "Construction of 2 Upgrading SS Irrigation project at Chalte-Bullo and Abakoyi Kebeles in Dedo  Woreda, Jimma Zone.",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457610",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457611",
+    "title": "Construction of 2 Upgrading SS Irrigation project at Chalte-Bullo and Abakoyi Kebeles in Dedo  Woreda, Jimma Zone.",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457611",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457613",
+    "title": "Selection of Development of Municipal Revenue Enhancement Plan (MREP) for 10 ULGIs.",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457613",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457614",
+    "title": "Construction works of Delo Upgrading and Hursa Rehabilitation of Small-Scale irrigation Scheme at Bedele Woreda, Bunno Bedele Zone.",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457614",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457615",
+    "title": "Construction works of Delo Upgrading and Hursa Rehabilitation of Small-Scale irrigation Scheme at Bedele Woreda, Bunno Bedele Zone.",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457615",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457616",
+    "title": "Construction of Fruit and Vegetable Market Center at Dedo Woreda, Jimma Zone",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457616",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457617",
+    "title": "Construction works of the Integrated Fishery and Aquaculture, at Dedo Woreda, Jimma Zone.",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457617",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457619",
+    "title": "Consultancy services for the preparation of feasibility studies, detailed engineering designs, and bidding documents for urban infrastructure works in Hargeisa",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457619",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457620",
+    "title": "Construction of Abba Bulgu upgrading of Small Scale Irrigation at Setema Woreda, Jimma Zone",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457620",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457621",
+    "title": "Supply, Delivery, Installation and Configuration of Electronics and ICT Facilities for Construction Management Institute",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457621",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
+  },
+  {
+    "id": "WORLD_BANK-OP00457622",
+    "title": "Supply, Delivery, Installation and Configuration of Electronics and ICT Facilities for Construction Management Institute",
+    "link": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457622",
+    "source": "WORLD_BANK",
+    "relevant": false,
+    "date": "2026-07-20 14:10"
   }
 ]
