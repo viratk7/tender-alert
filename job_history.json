@@ -17278,5 +17278,29 @@
     "source": "AFDB",
     "relevant": false,
     "date": "2026-07-21 22:05"
+  },
+  {
+    "id": "UNDP-PHL-00921-2",
+    "title": "Cybersecurity Specialist",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47837",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-22 05:52"
+  },
+  {
+    "id": "UNDP-WSM-00246",
+    "title": "RFQ-Supply and Installation of a Solar-Powered Irrigation System (LOT-1, LOT-2)",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47838",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-22 05:52"
+  },
+  {
+    "id": "RFQ26-10499",
+    "title": "Anibare Bay Protected Area Establishment and Priority  Endemic Bird Species Conservation, Naoero",
+    "link": "https://www.spc.int/procurement/tenders/anibare-bay-protected-area-establishment-and-priority-endemic-bird-species",
+    "source": "SPC",
+    "relevant": true,
+    "date": "2026-07-22 05:52"
   }
 ]
