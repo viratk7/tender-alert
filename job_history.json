@@ -17478,5 +17478,45 @@
     "source": "WORLD_BANK",
     "relevant": false,
     "date": "2026-07-22 11:11"
+  },
+  {
+    "id": "UNDP-LBN-01560",
+    "title": "LBN-CO-CFP-147-26 for  Strengthening Policy Dialogue on Solutions in Lebanon",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47855",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-22 14:01"
+  },
+  {
+    "id": "UNDP-BFA-00727",
+    "title": "Recrutement d\u2019un (01) contr\u00f4leur \u00e0 pied d\u2019\u0153uvre pour le suivi contr\u00f4le",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47857",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-22 14:01"
+  },
+  {
+    "id": "UNDP-ALB-00886",
+    "title": "RFQ\u2013 Supply and Installation of Equipment for CE Offices in Shkod\u00ebr Region and",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47858",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-22 14:01"
+  },
+  {
+    "id": "AFDB-eoi-gef-portfolio-supervision-and-results-specialist-pecg-95676",
+    "title": "EOI - GEF Portfolio Supervision and Results Specialist - PECG",
+    "link": "https://www.afdb.org/en/consultants/eoi-gef-portfolio-supervision-and-results-specialist-pecg-95676",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-07-22 14:01"
+  },
+  {
+    "id": "AFDB-eoi-individual-consultant-junior-level-support-operationalization-compact-delivery-and-monitoring-units-cdmus-aestap-mission-300-phase-i-pesr-95671",
+    "title": "EOI - Individual consultant (Junior Level) \u2013 Support to the Operationalization of Compact Delivery and Monitoring Units (CDMUs) for AESTAP Mission 300 Phase I - PESR",
+    "link": "https://www.afdb.org/en/consultants/eoi-individual-consultant-junior-level-support-operationalization-compact-delivery-and-monitoring-units-cdmus-aestap-mission-300-phase-i-pesr-95671",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-07-22 14:01"
   }
 ]
