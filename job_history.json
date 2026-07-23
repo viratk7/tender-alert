@@ -17534,5 +17534,53 @@
     "source": "SPC",
     "relevant": false,
     "date": "2026-07-23 02:55"
+  },
+  {
+    "id": "UNDP-MMR-00364",
+    "title": "Request for Expression of Interest for Provision of Long-Term Agreement (LTA) ho",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47877",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-23 05:57"
+  },
+  {
+    "id": "UNDP-ZWE-01928",
+    "title": "Supply and Delivery of air conditioning units",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47878",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-23 05:57"
+  },
+  {
+    "id": "UNDP-CHN-00226",
+    "title": "International TE Consultant for Flyway project (PIMS 6110)",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47879",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-23 05:57"
+  },
+  {
+    "id": "AFDB-ami-etudes-techniques-et-financieres-pour-la-realisation-de-la-premiere-tranche-de-la-ligne-t1-du-projet-metro-de-sfax-tunisie-picu-95690",
+    "title": "AMI - Etudes techniques et financieres pour la r\u00e9alisation de la premi\u00e8re tranche de la ligne t1 du projet- m\u00e9tro de SFAX- Tunisie - PICU",
+    "link": "https://www.afdb.org/en/consultants/ami-etudes-techniques-et-financieres-pour-la-realisation-de-la-premiere-tranche-de-la-ligne-t1-du-projet-metro-de-sfax-tunisie-picu-95690",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-07-23 05:57"
+  },
+  {
+    "id": "AFDB-eoi-analysis-great-lakes-conflict-and-pathways-sdg-aligned-resilience-rdts-95689",
+    "title": "EOI - Analysis of the Great Lakes Conflict and Pathways to SDG-Aligned Resilience - RDTS",
+    "link": "https://www.afdb.org/en/consultants/eoi-analysis-great-lakes-conflict-and-pathways-sdg-aligned-resilience-rdts-95689",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-07-23 05:57"
+  },
+  {
+    "id": "RFP26-10514",
+    "title": "Consultancy services for the preparation of the Adaptation Fund Full Proposal for the ROOTS Project in Vanuatu",
+    "link": "https://www.spc.int/procurement/tenders/consultancy-services-for-the-preparation-of-the-adaptation-fund-full-proposal",
+    "source": "SPC",
+    "relevant": true,
+    "date": "2026-07-23 05:57"
   }
 ]
