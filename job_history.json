@@ -17750,5 +17750,37 @@
     "source": "WORLD_BANK",
     "relevant": false,
     "date": "2026-07-23 11:12"
+  },
+  {
+    "id": "UNDP-PHL-00985",
+    "title": "Procurement of Consulting Firm for the Philippine Development Plan",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47924",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-24 05:51"
+  },
+  {
+    "id": "UNDP-BRA-01210",
+    "title": "IC - Consultoria para an\u00e1lise de financiamento clim\u00e1tico (COP30)",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47925",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-24 05:51"
+  },
+  {
+    "id": "UNDP-PAK-01680",
+    "title": "UNDP-IC-2026-184: IC Financial Reporting and Administrative Support",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47927",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-24 05:51"
+  },
+  {
+    "id": "UNDP-IND-00810",
+    "title": "RFP-067-IND-2026-Engagement of Service Provider for Undertaking a Diagnostics St",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=47926",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-24 05:51"
   }
 ]
