@@ -17950,5 +17950,85 @@
     "source": "WORLD_BANK",
     "relevant": false,
     "date": "2026-07-24 11:04"
+  },
+  {
+    "id": "AFDB-eoi-recruitment-cybersecurity-operational-support-analysts-tcis-95743",
+    "title": "EOI - Recruitment of Cybersecurity Operational Support Analysts - TCIS",
+    "link": "https://www.afdb.org/en/consultants/eoi-recruitment-cybersecurity-operational-support-analysts-tcis-95743",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-07-24 22:06"
+  },
+  {
+    "id": "AFDB-programme-support-consultancy-pseg-95742",
+    "title": "EOI - Research, Analysis & Project/Programme Support consultancy - PSEG",
+    "link": "https://www.afdb.org/en/consultants/eoi-research-analysis-project/programme-support-consultancy-pseg-95742",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-07-24 22:06"
+  },
+  {
+    "id": "AFDB-eoi-technical-advisory-support-see4jobs-rbf-operation-botswana-ahhd-95736",
+    "title": "EOI - Technical Advisory Support for the SEE4JOBS RBF Operation in Botswana - AHHD",
+    "link": "https://www.afdb.org/en/consultants/eoi-technical-advisory-support-see4jobs-rbf-operation-botswana-ahhd-95736",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-07-24 22:06"
+  },
+  {
+    "id": "AFDB-eoi-project-management-advisory-support-see4jobs-rbf-operation-botswana-ahhd-95735",
+    "title": "EOI - Project Management Advisory Support for the SEE4JOBS RBF Operation in Botswana - AHHD",
+    "link": "https://www.afdb.org/en/consultants/eoi-project-management-advisory-support-see4jobs-rbf-operation-botswana-ahhd-95735",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-07-24 22:06"
+  },
+  {
+    "id": "AFDB-ami-transformation-digitale-de-la-formation-professionnelle-en-algerie-etude-de-faisabilite-1-ahhd-95734",
+    "title": "AMI - Transformation digitale de la formation professionnelle en Alg\u00e9rie - \u00c9tude de faisabilit\u00e9 1 - AHHD",
+    "link": "https://www.afdb.org/en/consultants/ami-transformation-digitale-de-la-formation-professionnelle-en-algerie-etude-de-faisabilite-1-ahhd-95734",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-07-24 22:06"
+  },
+  {
+    "id": "AFDB-eoi-senior-web-and-graphic-design-consultant-snbt-95722",
+    "title": "EOI - Senior Web and Graphic Design Consultant - SNBT",
+    "link": "https://www.afdb.org/en/consultants/eoi-senior-web-and-graphic-design-consultant-snbt-95722",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-07-24 22:06"
+  },
+  {
+    "id": "AFDB-eoi-learning-and-knowledge-sharing-individual-consultant-sndr-95721",
+    "title": "EOI - Learning and Knowledge Sharing Individual Consultant - SNDR",
+    "link": "https://www.afdb.org/en/consultants/eoi-learning-and-knowledge-sharing-individual-consultant-sndr-95721",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-07-24 22:06"
+  },
+  {
+    "id": "AFDB-eoi-junior-investment-consultant-lusophone-compact-initiative-pisd-95710",
+    "title": "EOI - Junior Investment Consultant (Lusophone Compact Initiative) - PISD",
+    "link": "https://www.afdb.org/en/consultants/eoi-junior-investment-consultant-lusophone-compact-initiative-pisd-95710",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-07-24 22:06"
+  },
+  {
+    "id": "AFDB-ami-services-dun-bureau-de-controle-technique-pour-les-diagnostics-de-securite-incendie-tcgs-95709",
+    "title": "AMI - Services d\u2019un bureau de contr\u00f4le technique pour les diagnostics de s\u00e9curit\u00e9 incendie - TCGS",
+    "link": "https://www.afdb.org/en/consultants/ami-services-dun-bureau-de-controle-technique-pour-les-diagnostics-de-securite-incendie-tcgs-95709",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-07-24 22:06"
+  },
+  {
+    "id": "AFDB-eoi-junior-consultant-financial-sector-development-department-pifd-95695",
+    "title": "EOI - Junior Consultant - Financial Sector Development Department - PIFD",
+    "link": "https://www.afdb.org/en/consultants/eoi-junior-consultant-financial-sector-development-department-pifd-95695",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-07-24 22:06"
   }
 ]
