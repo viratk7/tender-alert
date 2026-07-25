@@ -18030,5 +18030,37 @@
     "source": "AFDB",
     "relevant": false,
     "date": "2026-07-24 22:06"
+  },
+  {
+    "id": "SPREP-336a6a60e3d2d729",
+    "title": "2026/020, Request for Tenders: Lawn Mowing Services for the SPREP Compound",
+    "link": "https://www.sprep.org/tender/2026020-request-for-tenders-lawn-mowing-services-for-the-sprep-compound",
+    "source": "SPREP",
+    "relevant": false,
+    "date": "2026-07-25 02:49"
+  },
+  {
+    "id": "SPREP-4035044909c4f534",
+    "title": "2026/026, Request for Tenders: Provision and Installation of Recycling Collection Cages for 13 Schools in the Solomon Islands",
+    "link": "https://www.sprep.org/tender/2026026-request-for-tenders-provision-and-installation-of-recycling-collection-cages-for-13-schools-in-the-solomon-islands",
+    "source": "SPREP",
+    "relevant": false,
+    "date": "2026-07-25 02:49"
+  },
+  {
+    "id": "SPREP-63ddd8219b7f820f",
+    "title": "2026/025ReAd, READVERTISEMENT - Request for Tenders: Security Services for the SPREP Compound",
+    "link": "https://www.sprep.org/tender/2026025read-readvertisement-request-for-tenders-security-services-for-the-sprep-compound",
+    "source": "SPREP",
+    "relevant": false,
+    "date": "2026-07-25 02:49"
+  },
+  {
+    "id": "SPREP-2a4330c3a8acece8",
+    "title": "2026/029, Request for Tenders: National Climate Data Strategy and Action Plan Development for Cook Islands, Niue and the Republic of the Marshall Islands.",
+    "link": "https://www.sprep.org/tender/2026029-request-for-tenders-national-climate-data-strategy-and-action-plan-development-for-cook-islands-niue-and-the-republic-of-the-marshall-islands",
+    "source": "SPREP",
+    "relevant": true,
+    "date": "2026-07-25 02:49"
   }
 ]
