@@ -18646,5 +18646,29 @@
     "source": "WORLD_BANK",
     "relevant": false,
     "date": "2026-07-27 14:39"
+  },
+  {
+    "id": "AFDB-eoi-quality-assurance-consultant-rdge-95771",
+    "title": "EOI - Quality Assurance Consultant - RDGE",
+    "link": "https://www.afdb.org/en/consultants/eoi-quality-assurance-consultant-rdge-95771",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-07-27 16:59"
+  },
+  {
+    "id": "AFDB-ami-etude-2-modules-hybrides-et-pilote-multi-centres-en-algerie-ahhd-95766",
+    "title": "AMI - \u00c9tude 2 - Modules hybrides et pilote multi-centres en Alg\u00e9rie - AHHD",
+    "link": "https://www.afdb.org/en/consultants/ami-etude-2-modules-hybrides-et-pilote-multi-centres-en-algerie-ahhd-95766",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-07-27 16:59"
+  },
+  {
+    "id": "AFDB-eoi-communications-consultant-rdgs-front-office-rdgs-95761",
+    "title": "EOI - Communications Consultant for RDGS Front Office - RDGS",
+    "link": "https://www.afdb.org/en/consultants/eoi-communications-consultant-rdgs-front-office-rdgs-95761",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-07-27 16:59"
   }
 ]
