@@ -18918,5 +18918,37 @@
     "source": "AFDB",
     "relevant": true,
     "date": "2026-07-29 02:48"
+  },
+  {
+    "id": "UNDP-TUN-01083",
+    "title": "UNODC- Achat d\u2019\u00e9quipements m\u00e9dicaux",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48048",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-29 05:54"
+  },
+  {
+    "id": "UNDP-ECU-00957",
+    "title": "UNDP-ECU-00957 Monitoreo de suelos y residuos de plaguicidas y desarrollo",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48044",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-29 05:54"
+  },
+  {
+    "id": "UNDP-PHL-00988",
+    "title": "Roster of Engineers on Circular Economy (CE) Technologies and Facilities",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48045",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-29 05:54"
+  },
+  {
+    "id": "UNDP-KAZ-00747",
+    "title": "\u041d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043d\u0441\u0443\u043b\u044c\u0442\u0430\u043d\u0442 \u043f\u043e \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u041a\u0430\u0442\u0430\u043b\u043e\u0433\u0430 \u0438\u043d\u0434\u0438\u043a\u0430\u0442\u043e\u0440\u043e\u0432 \u0431\u0438\u043e\u0440\u0430\u0437\u043d\u043e\u043e\u0431\u0440\u0430\u0437\u0438\u044f",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48046",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-29 05:54"
   }
 ]
