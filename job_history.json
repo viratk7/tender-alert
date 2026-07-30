@@ -19134,5 +19134,53 @@
     "source": "SPC",
     "relevant": true,
     "date": "2026-07-30 02:33"
+  },
+  {
+    "id": "UNDP-PNG-00194",
+    "title": "International Consultant for Right to Information legislation",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48087",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-30 05:42"
+  },
+  {
+    "id": "UNDP-ZWE-01949",
+    "title": "Chemistry, Microbiology and Medical Devices Lab Floor upgrades Readvertised",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48088",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-30 05:42"
+  },
+  {
+    "id": "UNDP-WSM-00247",
+    "title": "RFQ-Supply, Delivery and Set-up of Community Nursery Infrastructure and Material",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48089",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-30 05:42"
+  },
+  {
+    "id": "UNDP-PHL-00990",
+    "title": "Gender Specialist",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48090",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-07-30 05:42"
+  },
+  {
+    "id": "UNDP-UZB-01903",
+    "title": "Heat Pump Systems for Schools in Surkhandarya and Kashkadarya Regions",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48091",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-30 05:42"
+  },
+  {
+    "id": "UNDP-AFG-00852",
+    "title": "RFQ852 Smart Solar Genset-tied PV System",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48092",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-07-30 05:42"
   }
 ]
