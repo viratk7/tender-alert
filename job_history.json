@@ -20334,5 +20334,21 @@
     "source": "WORLD_BANK",
     "relevant": false,
     "date": "2026-08-03 14:43"
+  },
+  {
+    "id": "UNDP-HND-00661",
+    "title": "COTIZACION UNDP-HND-00661 TRATAMIENTO Y DISPOSICION FINAL DE RESIDUOS PELIGROSOS",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48223",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-08-03 17:09"
+  },
+  {
+    "id": "AFDB-eoi-consultant-firm-design-and-operate-centralized-monitoring-evaluation-reporting-and-learning-merl-system-acfm-acrifa-ahfr-96001",
+    "title": "EOI - Consultant Firm to Design and Operate a Centralized Monitoring, Evaluation, Reporting and Learning (MERL) System for ACFM & ACRIFA - AHFR",
+    "link": "https://www.afdb.org/en/consultants/eoi-consultant-firm-design-and-operate-centralized-monitoring-evaluation-reporting-and-learning-merl-system-acfm-acrifa-ahfr-96001",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-08-03 17:09"
   }
 ]
