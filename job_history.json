@@ -20582,5 +20582,21 @@
     "source": "WORLD_BANK",
     "relevant": true,
     "date": "2026-08-04 11:25"
+  },
+  {
+    "id": "UNDP-ZMB-00587",
+    "title": "Procurement of One (1) New Battery Electric Vehicle (BEV) and One (1) AC EVSE",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48268",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-08-04 16:53"
+  },
+  {
+    "id": "AFDB-eoi-etude-3-programmes-diplomants-distance-et-passage-lechelle-en-algerie-ahhd-96031",
+    "title": "EOI - \u00c9tude 3 - Programmes dipl\u00f4mants \u00e0 distance et passage \u00e0 l\u2019\u00e9chelle en Alg\u00e9rie - AHHD",
+    "link": "https://www.afdb.org/en/consultants/eoi-etude-3-programmes-diplomants-distance-et-passage-lechelle-en-algerie-ahhd-96031",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-08-04 16:53"
   }
 ]
