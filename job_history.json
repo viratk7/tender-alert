@@ -20598,5 +20598,13 @@
     "source": "AFDB",
     "relevant": false,
     "date": "2026-08-04 16:53"
+  },
+  {
+    "id": "AFDB-ami-redacteur-editeur-francophone-pcer-96037",
+    "title": "AMI - R\u00e9dacteur \u00e9diteur francophone - PCER",
+    "link": "https://www.afdb.org/en/consultants/ami-redacteur-editeur-francophone-pcer-96037",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-08-04 19:39"
   }
 ]
