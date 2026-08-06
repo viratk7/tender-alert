@@ -21094,5 +21094,29 @@
     "source": "SPREP",
     "relevant": false,
     "date": "2026-08-06 11:24"
+  },
+  {
+    "id": "AFDB-eoi-individual-consultant-support-project-coordinator-afawa-growfi-program-ahgc-96060",
+    "title": "EOI - Individual Consultant to Support as Project Coordinator of the AFAWA GrowFi Program - AHGC",
+    "link": "https://www.afdb.org/en/consultants/eoi-individual-consultant-support-project-coordinator-afawa-growfi-program-ahgc-96060",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-08-06 14:16"
+  },
+  {
+    "id": "AFDB-eoi-individual-consultant-support-procurement-and-contract-management-afawa-growfi-program-ahgc-96058",
+    "title": "EOI - Individual Consultant to Support the Procurement and Contract Management of the AFAWA GrowFi Program - AHGC",
+    "link": "https://www.afdb.org/en/consultants/eoi-individual-consultant-support-procurement-and-contract-management-afawa-growfi-program-ahgc-96058",
+    "source": "AFDB",
+    "relevant": false,
+    "date": "2026-08-06 14:16"
+  },
+  {
+    "id": "AFDB-eoi-consulting-firm-support-conduct-market-appetite-assessment-ahgc-96057",
+    "title": "EOI - Consulting Firm to Support the Conduct of a Market Appetite Assessment - AHGC",
+    "link": "https://www.afdb.org/en/consultants/eoi-consulting-firm-support-conduct-market-appetite-assessment-ahgc-96057",
+    "source": "AFDB",
+    "relevant": true,
+    "date": "2026-08-06 14:16"
   }
 ]
