@@ -21118,5 +21118,45 @@
     "source": "AFDB",
     "relevant": true,
     "date": "2026-08-06 14:16"
+  },
+  {
+    "id": "UNDP-ECU-00960",
+    "title": "UNDP-ECU-00960 Adquisici\u00f3n de equipamiento especializado para Cant\u00f3n Alausi",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48370",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-08-07 04:56"
+  },
+  {
+    "id": "UNDP-HND-00662",
+    "title": "UNDP-HND-00662 Consultoria Estrategia Comunicaci\u00f3n CONADEH",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48374",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-08-07 04:56"
+  },
+  {
+    "id": "RFQ26-10545",
+    "title": "Procurement of materials for the construction of Compost Shed for Mahuleva Organic Learning Farm (OLF) in Tonga",
+    "link": "https://www.spc.int/procurement/tenders/procurement-of-materials-for-the-construction-of-compost-shed-for-mahuleva",
+    "source": "SPC",
+    "relevant": false,
+    "date": "2026-08-07 04:56"
+  },
+  {
+    "id": "RFQ26-10540",
+    "title": "Scientific review of the revised chapter 8 on native forests, plantation forest and trees outside forests: their vulnerability and roles in mitigating and building resilience to climate change",
+    "link": "https://www.spc.int/procurement/tenders/scientific-review-of-the-revised-chapter-8-on-native-forests-plantation-forest",
+    "source": "SPC",
+    "relevant": true,
+    "date": "2026-08-07 04:56"
+  },
+  {
+    "id": "RFQ26-10497",
+    "title": "Deployment of Specialised Nurse Consultants to Tuvalu",
+    "link": "https://www.spc.int/procurement/tenders/deployment-of-specialised-nurse-consultants-to-tuvalu",
+    "source": "SPC",
+    "relevant": false,
+    "date": "2026-08-07 04:56"
   }
 ]
