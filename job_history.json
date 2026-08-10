@@ -21510,5 +21510,29 @@
     "source": "SPREP",
     "relevant": true,
     "date": "2026-08-10 01:57"
+  },
+  {
+    "id": "98885",
+    "title": "UNW-BIH-2026-00015 Provision of Services Related to Organization of the \u201c16 Days of Activism\u201d campaign",
+    "link": "https://procurement-notices.undp.org/view_notice.cfm?notice_id=98885",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-08-10 07:45"
+  },
+  {
+    "id": "UNDP-MDV-00379",
+    "title": "Procurement of Assistive Technology for the Empowerment Hub",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48437",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-08-10 07:45"
+  },
+  {
+    "id": "UNDP-VNM-02285",
+    "title": "RfQ for the provision of Preposition kits for UNDP Viet Nam",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48438",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-08-10 07:45"
   }
 ]
