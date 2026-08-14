@@ -22510,5 +22510,37 @@
     "source": "SPC",
     "relevant": false,
     "date": "2026-08-14 02:05"
+  },
+  {
+    "id": "UNDP-PHL-00998",
+    "title": "Long-Term Agreement for provision for Offsite storage space",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48690",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-08-14 04:49"
+  },
+  {
+    "id": "UNDP-MYS-00314",
+    "title": "Event Management Services for UNDP Malaysia (LTA)",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48691",
+    "source": "UNDP",
+    "relevant": false,
+    "date": "2026-08-14 04:49"
+  },
+  {
+    "id": "UNDP-IND-00823",
+    "title": "District Disaster Management Plans (DMP) for Himachal Pradesh",
+    "link": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=48692",
+    "source": "UNDP",
+    "relevant": true,
+    "date": "2026-08-14 04:49"
+  },
+  {
+    "id": "RFQ26-10552",
+    "title": "Consultancy Services for Pacific Nature-based Solutions Implementation Training",
+    "link": "https://www.spc.int/procurement/tenders/consultancy-services-for-pacific-nature-based-solutions-implementation-training",
+    "source": "SPC",
+    "relevant": true,
+    "date": "2026-08-14 04:49"
   }
 ]
